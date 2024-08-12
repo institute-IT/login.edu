@@ -1,0 +1,6284 @@
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+ul {
+    margin: 0;
+    padding: 0
+}
+
+dd {
+    margin: 0 0 0 40px
+}
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0
+}
+
+ol {
+    list-style: decimal outside;
+    margin: 0 0 15px 30px !important
+}
+
+.ie7 ol {
+    margin: 0 0 15px 40px !important
+}
+
+ol li {
+    padding: 0 0 0 0
+}
+
+strong {
+    font-weight: bold
+}
+
+em {
+    font-style: italic
+}
+
+body {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #000;
+    margin: auto;
+    font-size: 13px;
+    line-height: 1.231
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover,
+a:active,
+a:focus {
+    outline: 0
+}
+
+a:focus {
+    outline: 1px solid -webkit-focus-ring-color;
+    background-color: #ebebeb;
+    color: #015179
+}
+
+video,
+object,
+embed,
+img,
+iframe {
+    max-width: 100%
+}
+
+td,
+th {
+    padding: 5px
+}
+
+h1,
+.h1 {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    font-size: 2.45em;
+    color: #000;
+    text-transform: uppercase
+}
+
+h2,
+.h2 {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    color: #cc092f;
+    text-transform: uppercase
+}
+
+h3,
+.h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold
+}
+
+h4,
+.h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    font-style: italic
+}
+
+h5,
+.h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05em;
+    font-weight: bold
+}
+
+h6,
+.h6 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.05em;
+    font-style: italic
+}
+
+h6+h6 {
+    margin-top: 10px;
+}
+
+div.h6 {
+    margin-bottom:15px;
+}
+
+hr {
+    border: 1px solid #d9d9d9
+}
+
+.nav li {
+    float: left
+}
+
+.globalNoscript {
+    background: url("//www.astate.edu/includes/versions/1/img/default/icon_alert.png") no-repeat scroll 8px center #ffffbd;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding: 8px 12px 8px 50px;
+    text-align: left
+}
+
+.tcenter {
+    text-align: center
+}
+
+.tright {
+    text-align: right
+}
+
+.mcenter {
+    margin: auto
+}
+
+.red {
+    color: #cc092f
+}
+
+.moreinfo {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    height: 16px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/ie8_bg_morelink_black.png") top right no-repeat;
+    padding: 2px 30px 2px 7px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: #fff;
+    text-decoration: none
+}
+
+.moreinfowht {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    height: 16px;
+    background: url("//www.astate.edu/includes/versions/1/img/ie8_bg_morelink_white.png") top right no-repeat;
+    padding: 2px 30px 2px 7px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: #000;
+    text-decoration: none
+}
+
+form h2 {
+    margin-top: 20px
+}
+
+div.form_row {
+    width: 100%;
+    display: inline-block;
+    margin: 5px 0
+}
+
+div.form_row_item,
+dd.formFieldInput {
+    float: left
+}
+
+div.form_label,
+dd.formFieldLabel {
+    width: 25%;
+    text-align: right
+}
+
+div.form_item {
+    width: 75%
+}
+
+div.form_js {
+    display: block;
+    padding-left: 100px;
+    margin-top: -5px
+}
+
+div.form_js a {
+    color: #015c89;
+    font-style: italic;
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif
+}
+
+div.form_js a:hover {
+    color: #0e1e6f
+}
+
+div.form_inline {
+    padding-left: 16px
+}
+
+div.form_inline div.form_label,
+div.form_inline div.form_item {
+    width: auto
+}
+
+div.form_custom_leftright {
+    padding-top: 12px
+}
+
+#interest-move-right,
+#interest-move-left {
+    border: 3px solid #ebebeb;
+    margin: 9px;
+    display: block;
+    width: 20px;
+    text-align: center
+}
+
+#interest-move-right a,
+#interest-move-left a {
+    color: #cc092f;
+    display: block
+}
+
+.hasDatepicker {
+    margin-right: 5px
+}
+
+.multi-select {
+    width: 160px;
+    height: 100px
+}
+
+.notice {
+    padding: 0 10px;
+    font-size: .8em
+}
+
+p.notice {
+    font-style: italic
+}
+
+p.notice:before,
+span.required:after,
+label.required:after {
+    content: '*';
+    color: #e51937;
+    margin: 0 2px
+}
+
+form label {
+    font-weight: bold;
+    text-align: right;
+    padding: 0 10px 0 0;
+    display: block
+}
+
+form br.clearfix {
+    padding: 0;
+    margin: 0;
+    display: inline
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+    margin: 0 4px
+}
+
+.radio_l2r label,
+.radio_t2b label {
+    font-weight: normal
+}
+
+.radio_l2r label {
+    margin-right: 30px
+}
+
+#mob-header-search {
+    display: none
+}
+
+#header-search .mob-icon-container {
+    display: none
+}
+
+#outer-container {
+    position: relative;
+    z-index: 10000
+}
+
+#alert,
+#alert.open {
+    background: #ff8000;
+    position: relative;
+    color: #000
+}
+
+#alert .plus {
+    font-weight: 800;
+    padding: 0 1px
+}
+
+#alert .red {
+    font-family: 'Oswald', Georgia, "Times New Roman";
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff
+}
+
+#alert .attention-container {
+    display: block;
+    max-width: 950px;
+    margin: auto;
+    padding: 0 28px;
+    font-weight: 800;
+    height: 30px
+}
+
+#alert .attention-container .attention {
+    float: left;
+    font-size: 1.2em
+}
+
+#alert .attention-container .attention .red {
+    font-size: 1.2em
+}
+
+#alert .attention-container .showmore {
+    text-align: right;
+    padding-top: 5px;
+    color: #fff;
+    font-family: 'Oswald', Georgia, "Times New Roman"
+}
+
+#focus-bar {
+    cursor: pointer;
+    padding-top: 5px
+}
+
+#focus-bar:hover .showmore {
+    color: #cc092f
+}
+
+#alert .alert-container {
+    display: none;
+    max-width: 950px;
+    margin: auto;
+    padding: 0 28px;
+    position: relative
+}
+
+#alert .alert-container .headline {
+    padding: 15px 60px 0 0;
+    margin: 0;
+    display: block;
+    font-size: 1.8em;
+    font-family: 'Oswald', Georgia, "Times New Roman";
+    text-transform: uppercase
+}
+
+#alert .alert-container p {
+    padding: 0 60px 0 0
+}
+
+#alert .alert-container .col1 .moreinfo {
+    background: none;
+    display: block;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0 8px
+}
+
+#alert .alert-container .col2 {
+    padding-top: 20px
+}
+
+#alert .alert-container .col2 .phone {
+    font-size: 1.5em;
+    font-family: 'Oswald', Georgia, "Times New Roman";
+    text-transform: uppercase
+}
+
+#alert .alert-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 20px
+}
+
+#alert .alert-container ul {
+    margin: 0 0 20px 15px;
+    list-style: none
+}
+
+#alert .alert-container ul li {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bullet.png") 6px 6px no-repeat;
+    padding: 0 0 0 20px
+}
+
+#alert #alert-close {
+    display: none
+}
+
+#alert.open .plus {
+    display: none
+}
+
+#alert.open .attention-container .showmore {
+    display: none
+}
+
+#alert.open .alert-container {
+    display: block
+}
+
+#alert.open #alert-close {
+    display: block;
+    text-align: right;
+    color: #fff;
+    font-size: 1.1em;
+    padding-bottom: 8px;
+    padding-top: 10px
+}
+
+#alert.open #alert-close span {
+    font-weight: 800
+}
+
+#header {
+    z-index: 9990
+}
+
+#header .content-container {
+    margin: auto;
+    max-width: 950px;
+    position: relative;
+    min-height: 128px;
+    z-index: 9980;
+    padding: 45px 28px 0
+}
+
+#header #site-title {
+    min-width: 216px;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    font-size: 1.45em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 17px;
+    left: 28px
+}
+
+#header #site-title h1 {
+    font-size: inherit
+}
+
+#header #site-logo {
+    position: absolute;
+    top: 55px;
+    left: 54px
+}
+
+#site-logo a:focus {
+    background-color: transparent
+}
+
+.print-site-url {
+    display: none
+}
+
+#sub-nav-container .section-title {
+    display: none
+}
+
+#campus-nav {
+    display: none
+}
+
+#resource-nav {
+    text-align: right;
+    position: absolute;
+    max-width: 960px;
+    padding-right: 196px;
+    top: 19px;
+    right: 64px
+}
+
+#resource-nav .nav-container .title {
+    display: none
+}
+
+#resource-nav ul li {
+    margin: 5px 6px;
+    text-align: left
+}
+
+#resource-nav ul li a,
+#resource-nav ul li a:visited {
+    color: #707070
+}
+
+#resource-nav ul li a:hover,
+#resource-nav ul li a:focus {
+    color: #cc092f
+}
+
+#header-search {
+    background: #ccc;
+    border: 1px solid #fff;
+    padding: 2px 4px 2px 3px;
+    position: absolute;
+    top: 11px;
+    right: 28px
+}
+
+#header-search #header-search-box {
+    border: 0;
+    height: 21px;
+    width: 195px;
+    background: #ccc
+}
+
+#header-search #header-search-submit {
+    background: url("//www.astate.edu/includes/versions/1/img/icon_magnify.png") no-repeat center;
+    height: 21px;
+    text-indent: -9999px;
+    font-size: 0;
+    width: 21px;
+    border: none;
+    color: #ccc;
+    vertical-align: top
+}
+
+.no-js #header #header-search #header-search-submit:hover {
+    background: url("//www.astate.edu/includes/versions/1/img/icon_magnify_hover.png") no-repeat center
+}
+
+#header-search.focus {
+    background: #fff;
+    border: 1px solid #acacac
+}
+
+#header-search.focus #header-search-box {
+    border: 0;
+    background: #fff
+}
+
+#header-search.focus #header-search-submit {
+    background: url("//www.astate.edu/includes/versions/1/img/icon_magnify_hover.png") no-repeat center
+}
+
+#primary-nav {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_primary-nav.png?v=5") repeat-x top left;
+    height: 95px;
+    max-width: 950px;
+    margin: auto;
+    text-align: right;
+    z-index: 8000
+}
+
+#primary-nav .nav-container {
+    height: 96px
+}
+
+#primary-nav .nav-container>ul {
+    margin-top: 51px;
+    margin-right: 15px
+}
+
+#primary-nav .nav-container>ul>li {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    border-left: 2px solid #fff;
+    text-align: center;
+    height: 29px;
+    position: relative;
+    padding-top: 15px;
+    z-index: 60000
+}
+
+#primary-nav .nav-container>ul>li:nth-of-type(2) {
+    border-left: 0
+}
+
+#primary-nav .nav-container>ul>li.home {
+    display: none
+}
+
+#primary-nav .nav-container>ul>li.open.left {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_dropdown.png") top left repeat-y
+}
+
+#primary-nav .nav-container>ul>li.open.right {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_dropdown.png") top right repeat-y
+}
+
+#primary-nav .nav-container>ul>li>a,
+#primary-nav .nav-container>ul>li>a:visited {
+    background: url("//www.astate.edu/includes/versions/1/img/default/main_nav_arrow.png") right center no-repeat;
+    padding: 1px 21px 3px 8px;
+    margin-right: 7px;
+    color: #fff
+}
+
+#primary-nav .nav-container>ul>li.open>a {
+    background: url("//www.astate.edu/includes/versions/1/img/main_nav_arrow_white.png") right center no-repeat
+}
+
+.dropdown {
+    display: none;
+    width: 559px;
+    position: absolute;
+    top: 44px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_dropdown.png") top left repeat-y;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    z-index: 400;
+    text-transform: none
+}
+
+#primary-nav .nav-container ul li.open .dropdown {
+    display: block
+}
+
+#primary-nav .dropdown ul li:last-of-type {
+    margin-bottom: 10px
+}
+
+.left .dropdown {
+    left: 0
+}
+
+.right .dropdown {
+    right: -40px
+}
+
+.dropdown .divider {
+    position: absolute;
+    height: 100%;
+    display: block;
+    background: url("//www.astate.edu/includes/versions/1/img/default/dropdown_divider.png") top left repeat-y;
+    width: 21px;
+    top: 0;
+    left: 42.934%
+}
+
+.dropdown .leftbox {
+    width: 42.934%;
+    float: left
+}
+
+.dropdown .rightbox {
+    width: 46.333%;
+    float: left;
+    padding: 10px 10px 35px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    color: #fff
+}
+
+.dropdown .bottom {
+    position: absolute;
+    bottom: 10px;
+    right: 50px
+}
+
+.dropdown .bottom .close-button,
+.dropdown .bottom .close-button:visited {
+    padding: 6px;
+    color: #fff;
+    font-size: 1.1em
+}
+
+.dropdown .bottom .close-button span {
+    font-weight: 800
+}
+
+.dropdown ul {
+    list-style: none;
+    margin: 21px 10px
+}
+
+.dropdown ul li {
+    display: block;
+    padding: 0;
+    text-transform: none;
+    text-align: left;
+    margin: 0;
+    background: url("//www.astate.edu/includes/versions/1/img/default/dropdown_link_bg.png") top left no-repeat;
+    width: 100%
+}
+
+.dropdown ul li:first-child {
+    background: none
+}
+
+.dropdown ul li a,
+.dropdown ul li a:visited {
+    padding: 8px 10px 5px;
+    display: block;
+    color: #fff
+}
+
+.dropdown ul li:hover a,
+.dropdown ul li:focus a {
+    background: url("//www.astate.edu/includes/versions/1/img/default/dropdown_link_hover.png") bottom left repeat-x;
+    color: #fff
+}
+
+#audience-nav {
+    max-width: 950px;
+    margin: 1px auto 0;
+    background: #000;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 300
+}
+
+#audience-nav .title {
+    float: left;
+    margin-left: 25px;
+    font-weight: 800;
+    color: #acacac;
+    margin-right: 30px;
+    margin-top: 1px
+}
+
+#audience-nav .nav-container {
+    padding: 7px 0
+}
+
+#audience-nav .nav-container ul {
+    background: none
+}
+
+#audience-nav .nav-container ul li {
+    text-align: center;
+    font-weight: 600;
+    margin-right: 36px;
+    line-height: 1.4;
+    vertical-align: top
+}
+
+#audience-nav .nav-container ul li a,
+#audience-nav .nav-container ul li a:visited {
+    color: #fff
+}
+
+#audience-nav .nav-container ul li a:hover {
+    color: #acacac
+}
+
+#audience-nav .nav-container ul li a:focus {
+    color: #000;
+    padding: 3px
+}
+
+#main {
+    padding: 27px 0
+}
+
+#main>.content-container {
+    max-width: 950px;
+    margin: auto;
+    padding: 0 28px
+}
+
+#footer #footer-shadow-top {
+    height: 21px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: url("//www.astate.edu/includes/versions/1/img/footer_shadow_top.png") top left repeat-x
+}
+
+#footer #footer-shadow-bottom {
+    height: 21px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: url("//www.astate.edu/includes/versions/1/img/footer_shadow_bottom.png") bottom left repeat-x
+}
+
+#footer {
+    width: 100%;
+    background: url("//www.astate.edu/includes/versions/1/img/bg_footer.png") top left;
+    min-height: 104px;
+    position: relative
+}
+
+#footer .content-container {
+    max-width: 950px;
+    margin: auto;
+    position: relative;
+    padding: 0 28px
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: underline
+}
+
+#footer a:visited {
+    color: #acacac
+}
+
+#footer a:hover {
+    color: #015c89
+}
+
+#footer a:focus {
+    color: #015c89
+}
+
+#footer #address {
+    margin: 15px 5px 0
+}
+
+#footer #address .title {
+    min-width: 216px;
+    color: #fff;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 1.45em;
+    text-transform: uppercase
+}
+
+#footer #address .info {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #acacac;
+    font-size: 1.05em
+}
+
+#footer #admin_links {
+    position: absolute;
+    text-align: right;
+    right: 28px;
+    top: 18px
+}
+
+#footer #admin_links nav {
+    text-align: right;
+    width: 100%
+}
+
+#footer #admin_links ul {
+    list-style: none;
+    float: left
+}
+
+#footer #admin_links ul li {
+    border-left: 1px solid #8c8c8c;
+    padding: 0 8px;
+    float: left
+}
+
+#footer #admin_links ul li:first-child {
+    border-left: none
+}
+
+#footer #admin_links ul.mob-split li:first-child {
+    border-left: 1px solid #8c8c8c
+}
+
+#footer #addr_links {
+    position: absolute;
+    text-align: right;
+    top: 60px;
+    left: 28px
+}
+
+#footer #addr_links ul {
+    list-style: none
+}
+
+#footer #addr_links ul li {
+    border-left: 1px solid #8c8c8c;
+    padding: 0 8px;
+    float: left
+}
+
+#footer #addr_links ul li:first-child {
+    border-left: none
+}
+
+#footer #social {
+    position: relative;
+    padding-top: 14px;
+    width: auto
+}
+
+#footer #social ul {
+    list-style: none
+}
+
+#footer #social ul li {
+    float: left;
+    padding: 0 2px;
+    border: none;
+    width: 27px
+}
+
+.no-masthead {
+    display: block;
+    width: 100%;
+    margin-top: 30px
+}
+
+#feature {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden
+}
+
+.ie7 #feature {
+    height: 454px
+}
+
+#feature .flex-container {
+    overflow: visible !important;
+    border: none;
+    margin: 6px auto;
+    max-width: 1024px
+}
+
+#feature .flexslider {
+    overflow: visible !important;
+    border: none;
+    margin: 6px 0;
+    height: auto
+}
+
+.masthead .flex-container {
+    border: none;
+    margin: 0 auto;
+    max-width: 1024px
+}
+
+.masthead .flexslider {
+    border: none;
+    margin: 0 0 0;
+    height: auto
+}
+
+#feature .slides {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+#feature .slides img {
+    margin: auto
+}
+
+#feature .slide {
+    padding: 0 0 0 0;
+    overflow: hidden
+}
+
+.masthead .slides {
+    position: relative;
+    display: inline-block
+}
+
+.masthead .slides img {
+    margin: auto
+}
+
+.masthead .slide {
+    padding: 0 0 0 0;
+    overflow: hidden
+}
+
+.no-js .masthead .slide {
+    display: none
+}
+
+.no-js .masthead .slide:first-child {
+    display: block
+}
+
+.no-js #feature .slide {
+    display: none
+}
+
+.no-js #feature .slide:first-child {
+    display: block
+}
+
+#feature .flex-direction-nav {
+    position: absolute;
+    bottom: 44px;
+    left: 76px
+}
+
+.masthead .flex-direction-nav {
+    position: absolute;
+    bottom: 34px;
+    left: 34px
+}
+
+.flex-direction-nav li {
+    margin-left: 64px
+}
+
+.flex-direction-nav .prev {
+    height: 32px;
+    width: 33px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/slideshow_pager_left.png") top left no-repeat
+}
+
+.flex-direction-nav .next {
+    height: 32px;
+    width: 33px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/slideshow_pager_right.png") top left no-repeat;
+    margin-left: 100px;
+    background-position: top left !important
+}
+
+#feature .flex-pauseplay {
+    position: absolute;
+    bottom: 25px;
+    left: 92px
+}
+
+.masthead .flex-pauseplay {
+    position: absolute;
+    bottom: 15px;
+    left: 50px
+}
+
+.ie7 #feature .flex-pauseplay {
+    bottom: 41px
+}
+
+.ie7 .masthead .flex-pauseplay {
+    bottom: 30px
+}
+
+.flex-pauseplay .play {
+    height: 32px;
+    width: 33px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/slideshow_pager_play.png") top left no-repeat;
+    font-size: 0;
+    display: block
+}
+
+.flex-pauseplay .pause {
+    height: 32px;
+    width: 33px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/slideshow_pager_pause.png") top left no-repeat;
+    font-size: 0;
+    display: block
+}
+
+#feature .slide .slide-container {
+    padding: 0 28px
+}
+
+.masthead .slide .slide-container {
+    padding: 0 0
+}
+
+.ie7 .masthead .slide .slide-container {
+    padding: 0 8px
+}
+
+.slide .text-container {
+    position: absolute
+}
+
+#feature .slide.copy .text-container {
+    width: 450px;
+    overflow: hidden
+}
+
+.masthead .slide.copy .text-container {
+    width: 350px;
+    overflow: hidden
+}
+
+.slide.copy .text-container .smtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #cc092f
+}
+
+.slide.copy .text-container .bigtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.slide.copy .text-container p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #fff;
+    line-height: 1.3;
+    text-shadow: 1px 1px 3px #585858;
+    max-height: 155px;
+    margin-top: 15px
+}
+
+.slide.copy .text-container .link-container {
+    text-align: right;
+    display: block;
+    margin-top: 5px
+}
+
+.slide.copy .text-container .link-container .mobarrow {
+    display: none
+}
+
+.slide.copy .text-container .link-container .moreinfo {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-align: left;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 97px;
+    height: 16px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_morelink_black.png") top left no-repeat;
+    padding: 4px 7px;
+    color: #fff !important;
+    margin-top: 2px
+}
+
+#feature .slide.copy .text-container .smtitle {
+    font-size: 2.5em
+}
+
+#feature .slide.copy .text-container .bigtitle {
+    font-size: 4.8em
+}
+
+#feature .slide.copy .text-container p {
+    font-size: 1.5em
+}
+
+.masthead .slide.copy .text-container .smtitle {
+    font-size: 1.5em
+}
+
+.masthead .slide.copy .text-container .bigtitle {
+    font-size: 3.2em
+}
+
+.masthead .slide.copy .text-container p {
+    font-size: 1.2em
+}
+
+.masthead .slide.threeimage .col1 {
+    max-width: 480px;
+    position: relative;
+    background: #000
+}
+
+.masthead .slide.threeimage .col1 img {
+    max-width: 100%;
+    margin: 0
+}
+
+.masthead .slide.threeimage .col1 .text-container {
+    position: absolute;
+    text-align: left;
+    vertical-align: bottom;
+    width: 90%
+}
+
+.masthead .slide.threeimage .col1 .text-container .smtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.masthead .slide.threeimage .col1 .text-container .bigtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.ie7 .masthead .threeimage .col1 .text-container .bigtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.masthead .slide.threeimage .col2 {
+    max-width: 473px;
+    position: relative;
+    background: #000
+}
+
+.masthead .slide.threeimage .col2 .text-container {
+    background: #000;
+    text-align: left;
+    padding: 25px 20px 15px 25px;
+    position: relative
+}
+
+.masthead .slide.threeimage .col2 .text-container .smtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.masthead .slide.threeimage .col2 .text-container .bigtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.masthead .slide.threeimage .col2 .text-container p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #fff;
+    line-height: 1.3;
+    text-shadow: 1px 1px 3px #888;
+    max-height: 155px;
+    margin-top: 15px
+}
+
+.masthead .slide.threeimage .col2 .text-container .link-container {
+    text-align: right;
+    display: block;
+    margin-top: 2px
+}
+
+.masthead .slide.threeimage .col2 .text-container .link-container .mobarrow {
+    display: none
+}
+
+.masthead .slide.threeimage .col2 .text-container .link-container .moreinfo {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-align: left;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 97px;
+    height: 16px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_morelink_black.png") top left no-repeat;
+    padding: 4px 7px;
+    color: #fff;
+    margin-top: 2px
+}
+
+#feature .slide.threeimage .col1 {
+    max-width: 480px;
+    position: relative;
+    background: #000
+}
+
+#feature .slide.threeimage .col1 img {
+    max-width: 100%;
+    margin: 0
+}
+
+#feature .slide.threeimage .col1 .text-container {
+    position: absolute;
+    text-align: left;
+    vertical-align: bottom;
+    width: 90%
+}
+
+#feature .slide.threeimage .col1 .text-container .smtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff
+}
+
+#feature .slide.threeimage .col1 .text-container .bigtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.ie7 #feature .slide.threeimage .col1 .text-container .bigtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #fff
+}
+
+#feature .slide.threeimage .col2 {
+    max-width: 473px;
+    position: relative;
+    background: #000
+}
+
+#feature .slide.threeimage .col2 .text-container {
+    background: #000;
+    text-align: left;
+    padding: 25px 20px 15px 25px;
+    position: relative
+}
+
+#feature .slide.threeimage .col2 .text-container .smtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #cc092f
+}
+
+#feature .slide.threeimage .col2 .text-container .bigtitle {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #fff
+}
+
+#feature .slide.threeimage .col2 .text-container p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #fff;
+    line-height: 1.3;
+    text-shadow: 1px 1px 3px #888;
+    max-height: 155px;
+    margin-top: 15px
+}
+
+#feature .slide.threeimage .col2 .text-container .link-container {
+    text-align: right;
+    display: block;
+    margin-top: 2px
+}
+
+#feature .slide.threeimage .col2 .text-container .link-container .mobarrow {
+    display: none
+}
+
+#feature .slide.threeimage .col2 .text-container .link-container .moreinfo {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-align: left;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 97px;
+    height: 16px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_morelink_black.png") top left no-repeat;
+    padding: 4px 7px;
+    color: #fff;
+    margin-top: 2px
+}
+
+#feature .slide.threeimage .col1 .text-container .smtitle {
+    font-size: 2.5em
+}
+
+#feature .slide.threeimage .col1 .text-container .bigtitle {
+    font-size: 4.2em
+}
+
+#feature .slide.threeimage .col2 .text-container .smtitle {
+    font-size: 2em
+}
+
+#feature .slide.threeimage .col2 .text-container .bigtitle {
+    font-size: 2.8em
+}
+
+#feature .slide.threeimage .col2 .text-container p {
+    font-size: 1.3em
+}
+
+.masthead .slide.threeimage .col1 .text-container .smtitle {
+    font-size: 1.5em
+}
+
+.masthead .slide.threeimage .col1 .text-container .bigtitle {
+    font-size: 3.2em
+}
+
+.ie7 .masthead .slide.threeimage .col1 .text-container .bigtitle {
+    font-size: 2.8em
+}
+
+.masthead .slide.threeimage .col2 .text-container .smtitle {
+    font-size: 1.5em
+}
+
+.masthead .slide.threeimage .col2 .text-container .bigtitle {
+    font-size: 2.8em
+}
+
+.masthead .slide.threeimage .col2 .text-container p {
+    font-size: 1.2em
+}
+
+.non-home-page .slide.threeimage .col2 .text-container .bigtitle {
+    font-size: 2.4em
+}
+
+.slide.copy.whitebg .text-container .smtitle {
+    color: #555
+}
+
+.slide.copy.whitebg .text-container .bigtitle {
+    color: #cc092f
+}
+
+.slide.copy.whitebg .text-container p {
+    color: #555;
+    text-shadow: none
+}
+
+#news {
+    max-width: 950px;
+    margin: 0 auto 36px;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    position: relative;
+    overflow: hidden
+}
+
+#news a:hover,
+#news a:focus {
+    text-decoration: underline
+}
+
+#news .news-container>a,
+#news .news-container>a:hover,
+#news .news-container>a:focus,
+#news .news-container>a:visited {
+    position: absolute;
+    top: 67px;
+    left: 400px;
+    text-transform: uppercase;
+    width: 97px;
+    height: 16px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_morelink_black.png") top left no-repeat;
+    padding: 4px 7px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: #fff;
+    text-decoration: none
+}
+
+.ie7 #news .news-container>a,
+.ie7 #news .news-container>a:hover,
+.ie7 #news .news-container>a:focus,
+.ie7 #news .news-container>a:visited {
+    top: 82px
+}
+
+#news .text-container {
+    text-align: left;
+    margin-bottom: 20px
+}
+
+#news .text-container .smtitle {
+    line-height: .9;
+    font-size: 2.7em;
+    text-transform: uppercase;
+    color: #555
+}
+
+#news .text-container .bigtitle {
+    line-height: .9;
+    font-size: 4.8em;
+    text-transform: uppercase;
+    color: #cc092f
+}
+
+#news article {
+    margin-right: 20px;
+    overflow: hidden;
+    display: block
+}
+
+#news article>p,
+#news article>p a {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #015c89
+}
+
+#news article>p a:hover,
+#news article>p a:focus {
+    text-decoration: underline
+}
+
+#news article>a {
+    text-align: right;
+    text-transform: uppercase;
+    display: block;
+    color: #000
+}
+
+#news article>a:hover,
+#news article>a:focus {
+    text-decoration: underline
+}
+
+.ie7 #news article a:hover {
+    text-decoration: underline !important
+}
+
+#news article>a:visited {
+    color: #0e1e6f
+}
+
+#side-nav {
+    display: block;
+    text-align: right
+}
+
+#side-nav .nav-title {
+    color: #cc092f;
+    font-size: 2.1em;
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    max-width: 230px;
+    text-align: left
+}
+
+#side-nav nav>ul {
+    display: block;
+    list-style: none outside none
+}
+
+#side-nav nav>ul>li {
+    background: url("//www.astate.edu/includes/versions/1/img/default/target_nav_sprite.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 25px;
+    padding-left: 0;
+    padding-top: 5px;
+    width: 230px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2px;
+    text-align: left
+}
+
+.lt-ie9 #side-nav nav>ul>li,
+.no-js #side-nav nav>ul>li,
+#side-nav nav>ul>li.open {
+    background: url("//www.astate.edu/includes/versions/1/img/default/target_nav_sprite.png") no-repeat scroll 0 -30px transparent;
+    height: 100%;
+    max-width: 230px;
+    width: 100%;
+    padding-bottom: 3px
+}
+
+#side-nav nav>ul>li>a {
+    padding-left: 40px;
+    display: block
+}
+
+#side-nav nav>ul>li>ul {
+    display: none
+}
+
+.lt-ie9 #side-nav nav>ul>li>ul {
+    display: block;
+    padding-top: 14px
+}
+
+#side-nav nav>ul>li.open>ul,
+.no-js #side-nav nav>ul>li>ul {
+    display: block;
+    padding-top: 10px;
+    width: 100%
+}
+
+#side-nav nav>ul>li>ul li {
+    background: url("//www.astate.edu/includes/versions/1/img/target_nav_arrow.png") no-repeat scroll 40px 7px transparent;
+    display: block;
+    padding: 4px 0 0 50px
+}
+
+#side-nav nav>ul>li>ul li a {
+    color: #000
+}
+
+#side-nav nav>ul>li>ul li a:hover {
+    text-decoration: underline
+}
+
+#side-nav nav>ul>li>ul li a:visited {
+    color: #0e1e6f
+}
+
+.join-the-pack-home#side-nav {
+    text-align: left;
+    padding: 18px;
+    background-color: #cc092f;
+    border-right: 3px #000 solid
+}
+
+.join-the-pack-home#side-nav .nav-title {
+    font-size: 2.4em;
+    color: #fff;
+    margin-bottom: 10px
+}
+
+.join-the-pack-home#side-nav .call-to-action {
+    margin-left: 0
+}
+
+#events {
+    max-width: 950px;
+    margin: 0 auto 36px;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    position: relative;
+    height: 186px
+}
+
+#events a:hover,
+#events a:focus {
+    text-decoration: underline
+}
+
+#events>a,
+#events>a:hover,
+#events>a:focus,
+#events>a:visited {
+    position: absolute;
+    top: 85px;
+    left: 15px;
+    text-transform: uppercase;
+    width: 97px;
+    height: 16px;
+    background: url("//www.astate.edu/includes/versions/1/img/bg_morelink_white.png") top left no-repeat;
+    padding: 4px 7px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: #000;
+    text-decoration: none
+}
+
+#events .text-container {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_events.png") repeat-x top;
+    text-align: left;
+    border-left: 4px solid #333;
+    padding: 11px 14px;
+    color: #fff;
+    height: 165px
+}
+
+#events .text-container .smtitle {
+    line-height: .9;
+    font-size: 1.05em;
+    text-transform: uppercase
+}
+
+#events .text-container .bigtitle {
+    line-height: .9;
+    font-size: 3em;
+    text-transform: uppercase
+}
+
+#events .event-container {
+    text-align: left;
+    border-right: 1px solid #acacac;
+    border-top: 1px solid #acacac;
+    border-bottom: 1px solid #acacac;
+    height: 185px;
+    overflow: hidden
+}
+
+#events .event-container:first-child {
+    border-left: 1px solid #acacac
+}
+
+#events .event-container .date {
+    border-top: 4px solid #333;
+    float: left;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-transform: uppercase
+}
+
+#events .event-container .date .month {
+    padding: 0 0 0 17px;
+    color: #555;
+    margin: 0
+}
+
+#events .event-container .date .day {
+    padding: 0 0 0 17px;
+    line-height: .9;
+    font-size: 3em;
+    color: #cc092f;
+    margin: 0
+}
+
+.ie7 #events .event-container .date .day {
+    line-height: 1.2;
+    font-size: 2em
+}
+
+#events .event-container .details {
+    padding-left: 17px;
+    float: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 10px;
+    font-style: italic;
+    width: 85%;
+    padding-right: 10px;
+    text-overflow: ellipsis
+}
+
+#events .event-container .details a {
+    color: #015c89
+}
+
+#events .event-container .details a:visited {
+    color: #0e1e6f
+}
+
+#events>a.more.academic {
+    background-size: cover;
+    background: url("//www.astate.edu/includes/versions/1/img/bg_morelink_white_double.png") top left no-repeat;
+    top: 120px;
+    height: auto
+}
+
+#bottom {
+    background: #b50029 url("//www.astate.edu/includes/versions/1/img/bg_bottom.png") 0 -45px repeat-x;
+    width: 100%;
+    padding-bottom: 45px;
+    overflow: hidden
+}
+
+#bigboxes {
+    max-width: 960px;
+    display: block;
+    margin: auto;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif
+}
+
+#bigboxes ul li {
+    margin: auto
+}
+
+#bigboxes ul li .box {
+    border: solid 2px #ebebeb;
+    max-width: 224px;
+    height: auto;
+    max-height: 225px;
+    margin: auto;
+    display: block
+}
+
+#bigboxes ul li .box.text {
+    background: url("//www.astate.edu/includes/versions/1/img/bg_bigbox_text.png") top left no-repeat;
+    color: #fff;
+    height: 225px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+#bigboxes ul li .box.text .text-container {
+    padding: 11px;
+    border-top: solid 5px #cc092f;
+    float: left
+}
+
+#bigboxes img {
+    max-width: 100%
+}
+
+#bigboxes ul li .box.text .smtitle {
+    line-height: .9;
+    font-size: 1.7em;
+    text-transform: uppercase
+}
+
+#bigboxes ul li .box.text .bigtitle {
+    line-height: .9;
+    font-size: 3.5em;
+    text-transform: uppercase
+}
+
+#bigboxes ul li .box.text p {
+    float: left;
+    font-style: italic;
+    padding: 0 11px;
+    line-height: 1.4;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1em
+}
+
+#pageDescription a {
+    color: #015c89
+}
+
+#pageDescription a:visited {
+    color: #002c5f
+}
+
+#pageDescription a:hover {
+    color: #046
+}
+
+#content {
+    margin: 0 0 0 25%
+}
+
+#content article {
+    word-wrap: break-word
+}
+
+#content article a {
+    color: #015c89
+}
+
+#content article a:visited {
+    color: #002c5f
+}
+
+#content article a:hover {
+    color: #046
+}
+
+#content .column1 {
+    font-size: 1em
+}
+
+#content .column1 article {
+    margin: 0 15px 0 0
+}
+
+#content .column1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 20px
+}
+
+#content .column1 ul {
+    margin: 0 0 20px 15px;
+    list-style: none
+}
+
+#content .column1 ul li {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bullet.png") 6px 6px no-repeat;
+    padding: 0 0 0 20px
+}
+
+#content .column1 .bc-container,
+#content .column1 .breadcrumbs,
+#content .column1 .current {
+    font-size: inherit;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0
+}
+
+#content .column1 .breadcrumbs {
+    display: none
+}
+
+#content .column1 .callout-box {
+    background: #fff;
+    border: 2px solid #ebebeb;
+    margin-bottom: 15px
+}
+
+#content .column1 .callout-box .callout-container .date {
+    color: #333;
+    font-weight: bold
+}
+
+#content .column1 .callout-box .callout-container>p {
+    margin: 0 0 0 0;
+    padding: 0 10px 5px;
+    overflow: hidden
+}
+
+#content .column1 .callout-box .callout-container>p img {
+    border-width: 0;
+    border-style: solid;
+    border-color: #ebebeb
+}
+
+#content .column1 .callout-box .callout-container>p a {
+    color: #015c89
+}
+
+#content .column1 .callout-box .callout-container>p a:visited {
+    color: #002c5f
+}
+
+#content .column1 .callout-box .callout-container>p a:hover {
+    color: #046
+}
+
+#content .column1 .callout-box .callout-container>h6 {
+    margin: 0 0 0 0;
+    padding: 0 10px 5px;
+    overflow: hidden
+}
+
+#content .column1 .callout-box .callout-container>h6 a {
+    color: #015c89
+}
+
+#content .column1 .callout-box .callout-container>h6 a:visited {
+    color: #002c5f
+}
+
+#content .column1 .callout-box .callout-container>h6 a:hover {
+    color: #046
+}
+
+#content .column1 .box-text .callout-container>ul {
+    margin: 0 0 15px 15px;
+    list-style: none
+}
+
+#content .column1 .box-text .callout-container>ul li {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bullet.png") 6px 6px no-repeat;
+    padding: 0 0 0 20px
+}
+
+#content .column1 .box-text .callout-container>ol li {
+    padding: 0 0 0 10px
+}
+
+#content .column1 .box-links .callout-container>ul {
+    padding: 0 10px 10px
+}
+
+#content .column1 .box-links .callout-container>ul li a {
+    color: #015c89;
+    font-size: 1.05em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif
+}
+
+#content .column1 .callout-box .callout-container>a {
+    padding: 0 10px 15px;
+    display: block;
+    font-size: 1.05em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #015c89
+}
+
+#content .column1 .callout-box .callout-container>ul li a:visited,
+#content .column1 .callout-box .callout-container>a:visited {
+    color: #002c5f
+}
+
+#content .column1 .callout-box .callout-container>ul li a:hover,
+#content .column1 .callout-box .callout-container>a:hover {
+    color: #046
+}
+
+#content .column1 .callout-box .text-container {
+    display: block;
+    display: inline-block;
+    border-top: #cc092f 4px solid;
+    padding: 10px;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-size: 1.2em
+}
+
+#content .single-column {
+    font-size: 1em;
+    display: block;
+    margin: 0 auto
+}
+
+#content .single-column article {
+    margin: 0 15px 0 0
+}
+
+#content .single-column article p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 20px
+}
+
+#content .single-column article ul {
+    margin: 0 0 20px 15px;
+    list-style: none
+}
+
+#content .single-column article ul li {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bullet.png") 6px 6px no-repeat;
+    padding: 0 0 0 20px
+}
+
+#content .single-column .bc-container,
+#content .single-column .breadcrumbs,
+#content .single-column .current {
+    font-size: inherit;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0
+}
+
+#content .single-column .breadcrumbs {
+    display: none
+}
+
+#projects-column {
+    font-size: 1em
+}
+
+#projects-column article {
+    margin: 0 15px 0 0
+}
+
+#projects-column article p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 20px
+}
+
+#projects-column article ul {
+    margin: 0 0 20px 15px;
+    list-style: none
+}
+
+#projects-column article ul li {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bullet.png") 6px 6px no-repeat;
+    padding: 0 0 0 20px
+}
+
+#projects-column .bc-container,
+#projects-column .breadcrumbs,
+#projects-column .current {
+    font-size: inherit;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0
+}
+
+#page-nav {
+    margin: 0 0 0 -100%
+}
+
+.bc-container {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_redpattern.png") top left;
+    border: 2px solid #ebebeb;
+    margin: 0 25px 0 0;
+    padding: 0
+}
+
+.bc-container .ellipses {
+    display: none
+}
+
+.bc-container .current {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_current.png") top left;
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    word-wrap: break-word
+}
+
+.bc-container .breadcrumbs ul {
+    border-top: 4px solid #000;
+    display: block;
+    display: inline-block;
+    padding: 5px
+}
+
+.bc-container .breadcrumbs ul li {
+    color: #fff;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    font-size: .9em;
+    padding: 5px;
+    text-transform: uppercase
+}
+
+.bc-container .breadcrumbs ul li.last:empty {
+    padding: 0
+}
+
+.bc-container .breadcrumbs ul li a,
+.bc-container .breadcrumbs ul li a:visited {
+    color: #fff
+}
+
+.bc-container .breadcrumbs ul li a:hover {
+    color: #ccc
+}
+
+.current-page {
+    display: none
+}
+
+#page-nav .page-nav-container {
+    margin: 5px 25px 10px 0
+}
+
+#page-nav .page-nav-container ul li {
+    margin: 0;
+    padding: 6px 10px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666
+}
+
+#page-nav .page-nav-container ul li a,
+#page-nav .page-nav-container ul li a:visited {
+    color: #666
+}
+
+#page-nav .page-nav-container ul li a:hover {
+    color: #cc092f
+}
+
+.callout-box {
+    background: #e1e1e1;
+    padding: 0
+}
+
+.callout-box .callout-container .date {
+    color: #333;
+    font-weight: bold
+}
+
+.callout-box .callout-container>p {
+    padding: 0 10px 5px;
+    overflow: hidden
+}
+
+.callout-box .callout-container>p img {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ebebeb
+}
+
+.callout-box .callout-container>p a {
+    color: #015c89
+}
+
+.callout-box .callout-container>p a:visited {
+    color: #002c5f
+}
+
+.callout-box .callout-container>p a:hover {
+    color: #046
+}
+
+.callout-box .callout-container>h6 {
+    margin: 0 0 0 0;
+    padding: 0 10px 5px;
+    overflow: hidden
+}
+
+.callout-box .callout-container>h6 a {
+    color: #015c89
+}
+
+.callout-box .callout-container>h6 a:visited {
+    color: #002c5f
+}
+
+.callout-box .callout-container>h6 a:hover {
+    color: #046
+}
+
+.callout-box .callout-container>h4 {
+    margin: 0 0 0 0;
+    padding: 0 10px 0;
+    overflow: hidden
+}
+
+.callout-box .callout-container>h4 a {
+    color: #015c89
+}
+
+.callout-box .callout-container>h4 a:visited {
+    color: #002c5f
+}
+
+.callout-box .callout-container>h4 a:hover {
+    color: #046
+}
+
+.callout-box .callout-container>h2 {
+    margin: 0 0 0 0;
+    padding: 0 10px 0;
+    overflow: hidden
+}
+
+.callout-box .callout-container>h3 {
+    margin: 0 0 0 0;
+    padding: 0 10px 0;
+    overflow: hidden
+}
+
+.callout-box .callout-container>h5 {
+    margin: 0 0 0 0;
+    padding: 0 10px 0;
+    overflow: hidden
+}
+
+.box-text .callout-container>ul {
+    margin: 0 0 15px 15px;
+    list-style: none
+}
+
+.box-text .callout-container>ul li {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bullet.png") 6px 6px no-repeat;
+    padding: 0 0 0 20px
+}
+
+.box-text .callout-container>ol li {
+    padding: 0 0 0 10px
+}
+
+.box-links .callout-container>ul {
+    padding: 0 10px 10px
+}
+
+.box-links .callout-container>ul li {
+    padding: 0 0 5px 0
+}
+
+.box-links .callout-container>ul li a {
+    color: #015c89;
+    font-size: 1.05em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif
+}
+
+.callout-box .callout-container>a {
+    padding: 0 10px 15px;
+    display: block;
+    font-size: 1.05em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #015c89
+}
+
+.callout-box .callout-container>ul li a:visited,
+.callout-box .callout-container>a:visited {
+    color: #002c5f
+}
+
+.callout-box .callout-container>ul li a:hover,
+.callout-box .callout-container>a:hover {
+    color: #046
+}
+
+.callout-box .text-container {
+    display: block;
+    display: inline-block;
+    border-top: #cc092f 4px solid;
+    padding: 10px;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-size: 1.2em
+}
+
+.call-to-action {
+    margin: 0 0 15px 10px
+}
+
+.call-to-action .callout-container {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_calltoaction1.png") right 50% repeat-y, url("//www.astate.edu/includes/versions/1/img/bg_calltoaction2.png") top left repeat;
+    border: 2px solid #ebebeb;
+    margin: 3px 0
+}
+
+.no-multiplebgs .call-to-action .callout-container {
+    background: url("//www.astate.edu/includes/versions/1/img/default/ie8_bg_calltoaction.png") top right repeat-y;
+    border: 2px solid #ebebeb;
+    margin: 3px 0
+}
+
+.call-to-action .callout-container a {
+    display: block;
+    background: url("//www.astate.edu/includes/versions/1/img/calltoaction_arrow.png") right 50% no-repeat;
+    padding: 10px 30px 10px 10px;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px 0 0
+}
+
+#content .call-to-action .callout-container a {
+    color: #fff
+}
+
+.ask-astate {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_redpattern.png");
+    border: 2px solid #ebebeb;
+    margin: 0 0 15px 10px
+}
+
+.ask-astate .text-container {
+    display: block;
+    display: inline-block;
+    border-top: #000 4px solid;
+    padding: 10px;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #fff
+}
+
+.ask-astate form {
+    margin: 0 10px 15px
+}
+
+.ask-astate form input[type='submit'] {
+    background: none;
+    border: none;
+    color: #fff;
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 1.05em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    cursor: pointer
+}
+
+.ask-astate #ask-question {
+    width: 100%;
+    height: 20px
+}
+
+#content .column2 .callout-box {
+    margin: 0 0 15px 10px
+}
+
+#page-nav .ask-astate,
+#page-nav .call-to-action,
+#page-nav .callout-box {
+    margin: 0 25px 15px 0
+}
+
+#content .single-column .callout-box {
+    background: #fff;
+    border: 2px solid #ebebeb;
+    margin-bottom: 15px
+}
+
+#expandible-content {
+    margin: 0 0 0 0;
+    display: block
+}
+
+#expandible-content>ul {
+    margin: 0 !important
+}
+
+#expandible-content>ul>li>a {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    color: #333;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ebebeb;
+    background: url("//www.astate.edu/includes/versions/1/img/bg_expand_sprite.png") top right no-repeat !important;
+    display: block;
+    padding: 7px 37px 7px 7px
+}
+
+.ie7 #expandible-content>ul>li>a {
+    background: url("//www.astate.edu/includes/versions/1/img/bg_expand_sprite.png") 3px right no-repeat !important
+}
+
+#expandible-content>ul>li .hidden_content {
+    display: none
+}
+
+.no-js #expandible-content>ul>li .hidden_content,
+#expandible-content>ul>li.open .hidden_content {
+    display: block;
+    padding: 15px;
+    word-wrap: break-word
+}
+
+#expandible-content>ul>li.open .hidden_content p {
+    margin: 0 0 20px
+}
+
+#expandible-content>ul>li.open .hidden_content p>img {
+    margin: 10px
+}
+
+#expandible-content>ul>li.open .hidden_content ul {
+    margin: 0 0 20px 15px;
+    list-style: none
+}
+
+#expandible-content>ul>li.open .hidden_content ul li {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bullet.png") 6px 6px no-repeat;
+    padding: 0 0 0 20px
+}
+
+#expandible-content>ul>li.open>a {
+    background: url("//www.astate.edu/includes/versions/1/img/bg_expand_sprite.png") right -32px no-repeat !important
+}
+
+.ie7 #expandible-content>ul>li.open>a {
+    background: url("//www.astate.edu/includes/versions/1/img/bg_expand_sprite.png") right -29px no-repeat !important
+}
+
+#expandible-content a {
+    color: #015c89
+}
+
+#expandible-content a:visited {
+    color: #002c5f
+}
+
+#expandible-content a:hover {
+    color: #046
+}
+
+#multi-form .step-num {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_form_inactive.png") top left no-repeat;
+    padding: 8px 0;
+    width: 32px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #fff
+}
+
+#multi-form .open .step-num {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_form_active.png") top left no-repeat
+}
+
+#multi-form .step>a {
+    background: #d7d7d7;
+    display: block;
+    border: 3px solid #ebebeb;
+    position: relative;
+    padding: 8px 0 8px 40px;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    color: #424242;
+    margin-bottom: 5px
+}
+
+#multi-form .open>a {
+    background: #fff;
+    color: #333;
+    cursor: default
+}
+
+#multi-form .step-container {
+    clear: both;
+    margin: 15px 0;
+    padding: 0 45px;
+    display: none
+}
+
+#multi-form .open .step-container {
+    display: block
+}
+
+.masthead {
+    margin: 0 0 25px 0
+}
+
+.masthead .image-container {
+    position: relative
+}
+
+.masthead .image-container img {
+    vertical-align: bottom
+}
+
+.masthead .image-container .image-caption {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    background: #000;
+    opacity: .8;
+    font-size: 1.1em;
+    color: #fff;
+    padding: 10px 15px
+}
+
+.masthead .image-container .image-caption .headline {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase
+}
+
+#main.research {
+    padding: 0
+}
+
+#main.research #content {
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+#main.research>.content-container {
+    margin: auto;
+    padding: 0 15px;
+    max-width: 980px
+}
+
+#main.research #content.research-list .viewing {
+    display: block;
+    margin-bottom: 15px
+}
+
+#main.research #content.research-list .seeall {
+    padding: 0 10px;
+    font-size: 1.05em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #015c89;
+    text-transform: capitalize
+}
+
+#main.research .bc-container {
+    background: none;
+    border: none;
+    margin-top: 2px
+}
+
+#main.research .bc-container .ellipses {
+    display: none
+}
+
+#main.research .bc-container .last {
+    display: none
+}
+
+#main.research .bc-container .breadcrumbs {
+    margin-top: 25px
+}
+
+#main.research .bc-container .breadcrumbs .mobarrow {
+    display: none
+}
+
+#main.research .bc-container .breadcrumbs ul {
+    border: none
+}
+
+#main.research .bc-container .breadcrumbs ul li {
+    float: left;
+    border-left: 1px solid #a7a7a7;
+    padding: 0 5px 3px;
+    height: 13px
+}
+
+#main.research .bc-container .breadcrumbs ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+}
+
+#main.research .bc-container .breadcrumbs ul li a,
+#main.research .bc-container .breadcrumbs ul li a:visited {
+    color: #015c89
+}
+
+#main.research .bc-container .breadcrumbs ul li a:hover {
+    color: #046
+}
+
+#main.research .bc-container .homeicon {
+    border-left: none !important;
+    background: url("//www.astate.edu/includes/versions/1/img/default/bc_house_small.png") left center no-repeat !important;
+    padding-left: 15px !important
+}
+
+#main.research .bc-container .current {
+    background: none;
+    border: none;
+    padding: 0 0 5px
+}
+
+#main.research .current-page {
+    display: none
+}
+
+#main.research #content.research-detail .current h1 {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    color: #cc092f;
+    text-transform: uppercase;
+    line-height: 1
+}
+
+#main.research #content.research-detail #callout-column {
+    margin-top: -87px
+}
+
+#main.research .project-info {
+    display: block;
+    margin-bottom: 15px
+}
+
+#main.research .project-info .location {
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif
+}
+
+#main.research .project-info .date {
+    font-weight: bold
+}
+
+#top-feature {
+    max-width: 980px;
+    margin: auto;
+    padding: 25px 15px 20px
+}
+
+#top-feature>.text-container div {
+    vertical-align: middle;
+    text-align: right
+}
+
+#top-feature>.text-container div h2 {
+    padding: 0 15px 15px;
+    color: #000;
+    font-size: 2em;
+    text-align: left
+}
+
+#top-feature>.text-container .header {
+    padding-bottom: 12px
+}
+
+#top-feature>.text-container div .moreinfo {
+    margin-right: 15px
+}
+
+#research-slider {
+    width: 100%
+}
+
+#research-slider .text-container {
+    text-align: left;
+    padding: 5px 15px;
+    word-wrap: break-word
+}
+
+#research-slider .content-container {
+    text-align: center
+}
+
+#research-slider .slides li {
+    margin-bottom: 10px
+}
+
+.ie7 #research-slider .slides li {
+    width: 33.3%
+}
+
+#research-slider .slides li .text-container a,
+#research-slider .slides li .text-container a:visited {
+    color: #015c89
+}
+
+#research-slider .slides li .text-container a:hover {
+    color: #046
+}
+
+#research-slider .slides li .content-container img {
+    vertical-align: bottom
+}
+
+#research-centers {
+    padding: 25px 15px 0;
+    background: #000
+}
+
+#research-centers>.text-container {
+    max-width: 980px;
+    margin: auto
+}
+
+#research-centers>.text-container div {
+    vertical-align: middle;
+    text-align: right
+}
+
+#research-centers>.text-container div h2 {
+    padding: 0 15px 15px;
+    color: #fff;
+    font-size: 2em;
+    text-align: left
+}
+
+#research-centers>.text-container .header {
+    padding-bottom: 12px
+}
+
+#research-centers>.text-container div .moreinfo {
+    margin-right: 15px
+}
+
+#research-centers>.tab-container {
+    max-width: 980px;
+    margin: auto
+}
+
+#research-centers>.tab-container ul {
+    padding: 0 15px
+}
+
+#research-centers>.tab-container ul li {
+    float: left;
+    border: 2px solid #000;
+    margin-right: 15px
+}
+
+#research-centers>.tab-container ul li.active {
+    border: 2px solid #ccc;
+    background: #fff
+}
+
+#research-centers>.tab-container ul li a,
+#research-centers>.tab-container ul li a:visited {
+    text-decoration: underline;
+    color: #fff;
+    display: inline-block;
+    padding: 8px;
+    font-family: 'Open Sans', Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase
+}
+
+#research-centers>.tab-container ul li.active a,
+#research-centers>.tab-container ul li.active a:visited {
+    text-decoration: none;
+    color: #898989
+}
+
+#research-centers>.content-container {
+    max-width: 980px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0
+}
+
+#research-centers .tab {
+    padding: 35px 0 10px
+}
+
+#research-centers .hidden-tab {
+    display: none
+}
+
+.no-js #research-centers .hidden-tab {
+    display: block
+}
+
+#research-centers #three-feature {
+    clear: both
+}
+
+#research-centers #three-feature .content-container {
+    text-align: center;
+    padding: 0 15px
+}
+
+#research-centers #three-feature .text-container {
+    text-align: left;
+    padding: 0 15px
+}
+
+#research-centers #three-feature .text-container a,
+#research-centers #three-feature .text-container a:visited {
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif;
+    font-size: .85em;
+    text-align: left;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase
+}
+
+#research-centers .mason-feature {
+    padding: 0 15px;
+    clear: both;
+    margin: 45px 0 15px
+}
+
+#research-centers .mason-feature .mason-lightbox li {
+    float: left
+}
+
+#research-centers .mason-feature .mason-lightbox li .mason-container {
+    position: relative
+}
+
+#research-centers .mason-feature .mason-lightbox li .overlay {
+    position: absolute;
+    bottom: 3px;
+    right: -1px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/overlay_plus.png") no-repeat;
+    height: 29px;
+    width: 29px
+}
+
+#research-centers .mason-feature .mason-lightbox .thin {
+    width: 32%;
+    max-width: 165px
+}
+
+#research-centers .mason-feature .mason-lightbox .wide {
+    width: 65%;
+    max-width: 339px
+}
+
+#research-centers .mason-feature .text-container {
+    color: #fff;
+    text-align: left
+}
+
+#research-centers .mason-feature .text-container article {
+    padding: 0 0 0 15px
+}
+
+#research-centers .mason-feature .text-container p {
+    margin-bottom: 25px
+}
+
+#research-centers .mason-feature .text-container ul {
+    list-style: inside disc;
+    margin: 0 0 0 15px
+}
+
+#research-centers .mason-feature .text-container h1 {
+    font-size: 2.55em
+}
+
+#research-centers .mason-feature .text-container h2 {
+    font-size: 1.6em
+}
+
+#research-centers .mason-feature .text-container h3 {
+    font-size: 1.3em
+}
+
+#research-centers .mason-feature .text-container h4 {
+    font-size: 1.3em
+}
+
+#research-centers .mason-feature .text-container h5 {
+    font-size: 1.15em
+}
+
+#research-centers .mason-feature .text-container h6 {
+    font-size: 1.15em
+}
+
+#research-news {
+    max-width: 980px;
+    margin: auto;
+    padding: 25px 15px
+}
+
+#research-news>div {
+    padding: 0 15px
+}
+
+#research-news .news-container .text-container {
+    padding-right: 15px
+}
+
+#research-news .news-container .text-container .title h2 {
+    padding: 0 0 15px;
+    color: #000;
+    font-size: 2em;
+    text-align: left
+}
+
+#research-news .news-container .text-container .header {
+    text-align: right;
+    padding-top: 9px;
+    padding-bottom: 9px
+}
+
+#research-news .news-container .article-container .article article {
+    display: block;
+    margin-right: 15px
+}
+
+#research-news .news-container .article-container .article article>p,
+#research-news .news-container .article-container .article article>p a {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #015c89
+}
+
+#research-news .news-container .article-container .article article>p a:hover {
+    text-decoration: underline
+}
+
+#research-news .news-container .article-container .article article>a {
+    padding-top: 5px;
+    text-align: right;
+    text-transform: uppercase;
+    display: block;
+    color: #000;
+    font-family: 'Oswald', Georgia, "Times New Roman", Times, serif
+}
+
+#research-news .news-container .article-container .article article>a:hover {
+    text-decoration: underline
+}
+
+#research-heritage {
+    padding: 25px 15px 0;
+    background: #9e0016
+}
+
+#research-heritage>.text-container {
+    max-width: 980px;
+    margin: auto;
+    word-wrap: break-word
+}
+
+#research-heritage>.text-container div {
+    vertical-align: middle;
+    text-align: right
+}
+
+#research-heritage>.text-container div h2 {
+    padding: 0 15px 15px;
+    color: #fff;
+    font-size: 2em;
+    text-align: left
+}
+
+#research-heritage>.text-container .header {
+    padding-bottom: 12px
+}
+
+#research-heritage>.text-container div .moreinfowht {
+    margin-right: 15px
+}
+
+#research-heritage>.content-container {
+    max-width: 980px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0
+}
+
+#research-heritage>.content-container {
+    padding: 0 0 15px;
+    clear: both
+}
+
+#research-heritage>.content-container .content {
+    padding: 0 15px
+}
+
+#research-heritage>.content-container .mason-lightbox li {
+    float: left
+}
+
+#research-heritage>.content-container .mason-lightbox li .mason-container {
+    position: relative
+}
+
+#research-heritage>.content-container .mason-lightbox li .overlay {
+    position: absolute;
+    bottom: 3px;
+    right: -1px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/overlay_plus.png") no-repeat;
+    height: 29px;
+    width: 29px
+}
+
+#research-heritage>.content-container .mason-lightbox .thin {
+    width: 32%;
+    max-width: 165px
+}
+
+#research-heritage>.content-container .mason-lightbox .wide {
+    width: 65%;
+    max-width: 339px
+}
+
+#research-heritage>.content-container .text-container {
+    color: #fff;
+    text-align: left;
+    word-wrap: break-word
+}
+
+#research-heritage>.content-container .text-container article {
+    padding: 0 0 0 15px
+}
+
+#research-heritage>.content-container .text-container p {
+    margin-bottom: 25px
+}
+
+#research-heritage>.content-container .text-container ul {
+    list-style: inside disc;
+    margin: 0 0 0 15px
+}
+
+#research-heritage>.content-container .text-container h1 {
+    font-size: 2.55em
+}
+
+#research-heritage>.content-container .text-container h2 {
+    font-size: 1.6em
+}
+
+#research-heritage>.content-container .text-container h3 {
+    font-size: 1.3em
+}
+
+#research-heritage>.content-container .text-container h4 {
+    font-size: 1.3em
+}
+
+#research-heritage>.content-container .text-container h5 {
+    font-size: 1.15em
+}
+
+#research-heritage>.content-container .text-container h6 {
+    font-size: 1.15em
+}
+
+#research-nav {
+    background: #000;
+    color: #fff;
+    height: 60px;
+    width: 100%
+}
+
+.no-js #research-nav {
+    display: none
+}
+
+#research-nav .nav-container {
+    max-width: 980px;
+    margin: auto;
+    padding: 0 15px
+}
+
+#research-nav .nav-container ul {
+    padding: 0 15px
+}
+
+#research-nav .nav-container li {
+    text-align: right;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    text-transform: uppercase
+}
+
+#research-nav .nav-container li a,
+#research-nav .nav-container li a:visited {
+    display: inline-block;
+    color: #fff
+}
+
+#research-nav .nav-container li a:hover {
+    color: #acacac
+}
+
+#research-nav .nav-container li.choose {
+    color: #acacac;
+    padding: 20px 0
+}
+
+#research-nav .nav-container li.featured {
+    margin: 0 auto;
+    width: 20%;
+    text-align: center
+}
+
+#research-nav .nav-container li.centers {
+    margin: 0 auto;
+    width: 20%;
+    text-align: center
+}
+
+#research-nav .nav-container li.news {
+    margin: 0 auto;
+    width: 20%;
+    text-align: center
+}
+
+#research-nav .nav-container li.heritage {
+    margin: 0 auto;
+    width: 20%;
+    text-align: center
+}
+
+#research-nav .nav-container li.featured a {
+    background: url("//www.astate.edu/includes/versions/1/img/default/nav_research_star.png") left center no-repeat;
+    padding: 20px 1px 20px 30px;
+    margin: 0 auto
+}
+
+#research-nav .nav-container li.centers a {
+    background: url("//www.astate.edu/includes/versions/1/img/default/nav_research_center.png") left center no-repeat;
+    padding: 20px 1px 20px 30px;
+    margin: 0 auto
+}
+
+#research-nav .nav-container li.news a {
+    background: url("//www.astate.edu/includes/versions/1/img/default/nav_research_news.png") left center no-repeat;
+    padding: 20px 1px 20px 35px;
+    margin: 0 auto
+}
+
+#research-nav .nav-container li.heritage a {
+    background: url("//www.astate.edu/includes/versions/1/img/default/nav_research_tree.png") left center no-repeat;
+    padding: 20px 1px 20px 30px;
+    margin: 0 auto
+}
+
+#projects-column>ul>li {
+    margin: 0 0 7px 0;
+    width: 95%;
+    border-style: solid;
+    border-color: #ebebeb;
+    border-width: 0 4px 4px 4px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/bg_research_item.png") top left no-repeat
+}
+
+#projects-column .image-container {
+    float: left;
+    padding-top: 5px
+}
+
+#projects-column .image-container img {
+    padding: 14px;
+    max-width: 150px
+}
+
+.image-container .close {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: -31px;
+    right: -31px;
+    background: url("//www.astate.edu/includes/versions/1/img/default/icon_close.png") top left no-repeat;
+    text-indent: -9999px
+}
+
+#projects-column .text-container {
+    padding: 15px 10px 7px;
+    min-height: 171px;
+    word-wrap: break-word
+}
+
+#projects-column .text-container p {
+    padding: 0 0 5px 0
+}
+
+#projects-column .text-container img {
+    padding: 10px
+}
+
+#projects-column .text-container>ul {
+    list-style: disc inside;
+    margin: 0 0 0 40px
+}
+
+#projects-column .text-container>ul ul {
+    list-style: circle;
+    margin: 0 0 0 40px
+}
+
+#projects-column .text-container>table ul {
+    list-style: disc inside;
+    margin: 0 0 0 10px
+}
+
+#projects-column .text-container>table ul ul {
+    list-style: circle;
+    margin: 0 0 0 10px
+}
+
+#projects-column .text-container .date {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    padding: 5px
+}
+
+#projects-column .text-container>a,
+#projects-column .text-container>a:visited {
+    font-size: 1.05em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #015c89
+}
+
+#projects-column .text-container>a:hover {
+    color: #046
+}
+
+#projects-column .text-container .tags ul {
+    display: inline;
+    list-style: none
+}
+
+#projects-column .text-container .tags ul li {
+    display: inline;
+    border-left: 1px solid #000;
+    padding: 0 0;
+    line-height: 2
+}
+
+#projects-column .text-container .tags ul li:first-child {
+    border: none
+}
+
+#projects-column .text-container .tags a,
+#projects-column .text-container .tags a:visited {
+    padding: 0 2px 0 5px;
+    color: #015c89
+}
+
+#projects-column .text-container .tags a:hover {
+    color: #046
+}
+
+#callout-column {
+    margin-bottom: 25px
+}
+
+#callout-column h2 {
+    line-height: 1
+}
+
+#callout-column .bc-container {
+    display: none
+}
+
+#callout-column .callout-box {
+    margin: 15px 0 0
+}
+
+#research-pager {
+    text-align: center;
+    margin: 30px 0
+}
+
+#research-pager ul li {
+    border: 2px solid #d9d9d9;
+    display: inline;
+    padding: 10px
+}
+
+#research-pager ul li a,
+#research-pager ul li a:visited {
+    color: #015c89
+}
+
+#research-pager ul li a:hover {
+    color: #046
+}
+
+#research-pager ul li.prev,
+#research-pager ul li.next {
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif
+}
+
+#research-pager ul li.prev {
+    background: url("//www.astate.edu/includes/versions/1/img/default/page_recent.png") 100% 8px no-repeat;
+    border: none;
+    padding-right: 25px;
+    margin-right: 2px
+}
+
+#research-pager ul li.next {
+    background: url("//www.astate.edu/includes/versions/1/img/default/page_older.png") 0 8px no-repeat;
+    border: none;
+    padding-left: 25px;
+    margin-left: 2px
+}
+
+.pager-container {
+    display: none
+}
+
+.box-expand .content-container>p {
+    padding: 0 10px 15px;
+    overflow: hidden
+}
+
+.box-expand .content-container>p img {
+    margin: 10px
+}
+
+.box-expand .content-container>p a {
+    color: #015c89
+}
+
+.box-expand .content-container>p a:visited {
+    color: #002c5f
+}
+
+.box-expand .content-container>p a:hover {
+    color: #046
+}
+
+.box-expand .content-container>ul {
+    margin: 0 0 15px 15px;
+    list-style: none
+}
+
+.box-expand .content-container>ul li {
+    background: url("//www.astate.edu/includes/versions/1/img/default/bullet.png") 6px 6px no-repeat;
+    padding: 0 0 0 20px
+}
+
+.box-expand .content-container>ol li {
+    padding: 0 0 0 10px
+}
+
+.box-expand .content-container>ul {
+    padding: 0 10px 10px
+}
+
+.box-expand .content-container>ul li {
+    padding: 0 0 5px 0
+}
+
+.box-expand .content-container>ul li a {
+    color: #015c89;
+    font-size: 1.05em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif
+}
+
+.box-expand .content-container>a {
+    padding: 0 10px 15px;
+    display: block;
+    font-size: 1.05em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #015c89
+}
+
+.box-expand .content-container>ul li a:visited,
+.box-expand .content-container>a:visited {
+    color: #002c5f
+}
+
+.box-expand .content-container>ul li a:hover,
+.box-expand .content-container>a:hover {
+    color: #046
+}
+
+.box-quote {
+    background: none
+}
+
+.box-quote .callout-container p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5
+}
+
+.box-image {
+    background: none
+}
+
+.box-image .callout-container {
+    position: relative
+}
+
+.box-image .caption-container {
+    position: absolute;
+    bottom: 5px;
+    padding: 5px;
+    background: #000;
+    color: #fff;
+    opacity: .8;
+    filter: alpha(opacity=80)
+}
+
+.ie7 .box-image .caption-container {
+    width: 97%
+}
+
+.box-image .caption-container .headline {
+    font-weight: bold
+}
+
+.box-image .caption-container p {
+    display: inline
+}
+
+.box-image .caption-container .hidden_content {
+    display: none
+}
+
+.box-video {
+    background: none
+}
+
+.box-video .callout-container {
+    border: 1px solid #000
+}
+
+.box-video .video-container a {
+    position: relative;
+    display: block
+}
+
+.box-video .video-container a .overlay {
+    width: 61px;
+    height: 42px;
+    position: absolute;
+    background: url("//www.astate.edu/includes/versions/1/img/default/overlay_video.png") 0 0 no-repeat;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -30px
+}
+
+.student-union-meeting-spaces {
+    margin-bottom: 15px;
+}
+
+.student-union-meeting-spaces h3,
+.student-union-meeting-spaces .h3 {
+  font-size: 1.2em;
+}
+
+.student-union-meeting-spaces .setup-header {
+  margin: 5px 0 7px 0;
+}
+
+.student-union-meeting-spaces .rates-header {
+  margin: 20px 0 15px 0;
+}
+
+.student-union-meeting-spaces table.setups {
+  width: 100%;
+  border-color: #e1e1e1;
+  border-collapse: collapse;
+  margin: 10px 0;
+  border: 1px solid #ebebeb;
+}
+.student-union-meeting-spaces table.setups th,
+.student-union-meeting-spaces table.setups td {
+  padding: 8px;
+  border: 1px solid #ebebeb;
+}
+.student-union-meeting-spaces table.setups th {
+  font-style: italic;
+  font-weight: bold;
+  background-color: #ebebeb;
+}
+
+.student-union-meeting-spaces .rates-container {
+  border-top: 1px solid #aaa;
+  padding-top: 10px;
+}
+
+.student-union-meeting-spaces .rates-container .dept-rate-container {
+  border-right: 1px solid #aaa;
+}
+
+.student-union-meeting-spaces .rates-container .h4 {
+  margin-bottom: 6px;
+}
+
+.student-union-meeting-spaces .rates-container .h5 {
+  font-size: 1.4em;
+}
+
+.student-union-meeting-spaces .rates-container .h6 {
+  margin-bottom: 0;
+}
+
+#degree-details table {
+    margin: 10px 0 10px;
+}
+
+#degree-details table th {
+    font-weight: bold;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #979797;
+    padding: 10px;
+}
+
+#degree-details table td {
+    padding: 10px;
+    border-bottom: 1px solid #b9b9b9;
+}
+
+#degree-details table tr:last-of-type td {
+    border-bottom: none;
+}
+
+
+#degree-details table + .h2 {
+    margin-top: 20px;
+}
+
+#degree-details table + .h3 {
+    margin-top: 20px;
+}
+
+#degree-details table + .h4 {
+    margin-top: 20px;
+}
+
+#degree-details table + .h5 {
+    margin-top: 20px;
+}
+
+h2 + ol, h3 + ol, h4 + ol, h5 + ol, .h2 + ol, .h3 + ol, .h4 + ol, .h5 + ol, h2 + ul, h3 + ul, h4 + ul, h5 + ul, .h2 + ul, .h3 + ul, .h4 + ul, .h5 + ul  {
+	margin-top: 10px !important;
+}
+
+@media only screen and (max-width:1023px) {
+    #side-nav nav>ul>li>ul li {
+        background: url("//www.astate.edu/includes/versions/1/img/target_nav_arrow.png") no-repeat scroll 10px 12px transparent;
+        padding: 0 0 0 0
+    }
+
+    #side-nav nav>ul>li>ul li a {
+        display: block;
+        border-style: solid;
+        border-color: #c5c5c5;
+        border-width: 0 1px 1px 1px;
+        padding: 9px 8px 6px 20px
+    }
+
+    .ie7 #side-nav nav>ul>li>ul {
+        display: block;
+        padding-top: 13px
+    }
+
+    #side-nav nav>ul>li.open>ul,
+    .no-js #side-nav nav>ul>li>ul {
+        display: block;
+        padding-top: 9px;
+        width: 100%
+    }
+
+    .dropdown {
+        width: 420px;
+        background: url("//www.astate.edu/includes/versions/1/img/default/bg_dropdown.png") top left repeat-y
+    }
+
+    #primary-nav .nav-container>ul>li.left:hover {
+        background: url("//www.astate.edu/includes/versions/1/img/default/bg_dropdown.png") top left repeat-y
+    }
+
+    #primary-nav .nav-container>ul>li.right:hover {
+        background: url("//www.astate.edu/includes/versions/1/img/default/bg_dropdown.png") top right repeat-y
+    }
+
+    .dropdown .bottom {
+        position: absolute;
+        bottom: 2px;
+        right: 5px
+    }
+
+    .dropdown .bottom .close-button,
+    .dropdown .bottom .close-button:visited {
+        padding: 2px;
+        color: #fff
+    }
+
+    .right .dropdown {
+        right: 0
+    }
+
+    #research-slider {
+        width: 100%
+    }
+
+    #research-slider .content-container {
+        padding: 0 12px
+    }
+}
+
+@media only screen and (max-width:988px) {
+    #audience-nav {
+        height: 35px;
+        position: relative;
+        z-index: 500
+    }
+
+    #audience-nav .nav-container ul {
+        display: none
+    }
+
+    #audience-nav .title {
+        background: url("//www.astate.edu/includes/versions/1/img/audience_nav_dropdown.png") top left no-repeat;
+        height: 24px;
+        width: 176px;
+        margin: 0;
+        padding: 7px 0 0 10px;
+        color: #fff;
+        cursor: pointer
+    }
+
+    #audience-nav .nav-container {
+        padding: 2px
+    }
+
+    #audience-nav.open .nav-container ul {
+        display: block;
+        position: absolute;
+        top: 34px;
+        left: 0
+    }
+
+    #audience-nav.open .nav-container ul li {
+        float: none;
+        padding: 4px 0;
+        border-style: solid;
+        border-width: 0 1px 1px 1px;
+        border-color: #000;
+        background: #fff;
+        text-align: left;
+        width: 176px
+    }
+
+    #audience-nav.open .nav-container ul li:first-child {
+        border-top: 1px solid #000
+    }
+
+    #audience-nav.open .nav-container ul li a {
+        color: #000;
+        padding: 5px 10px
+    }
+
+    #audience-nav.open .nav-container ul li a:hover {
+        text-decoration: underline;
+        color: #000
+    }
+
+    #audience-nav.open .nav-container ul li a:visited {
+        color: #000
+    }
+
+    #primary-nav .nav-container ul li {
+        font-size: 1em
+    }
+
+    #primary-nav .nav-container ul li .dropdown {
+        font-size: 1.1em
+    }
+
+    #footer #social {
+        padding-top: 5px;
+        width: 100%
+    }
+
+    #footer #social ul {
+        float: right
+    }
+
+    #feature .flex-pauseplay,
+    #feature .flex-direction-nav,
+    .masthead .flex-pauseplay,
+    .masthead .flex-direction-nav {
+        display: none !important;
+        z-index: 1;
+        top: -9999px;
+        position: absolute
+    }
+
+    .flex-control-nav {
+        position: relative;
+        bottom: 0;
+        margin: 0 !important
+    }
+
+    .flex-control-nav li a {
+        color: #000;
+        width: 11px;
+        height: 10px;
+        background: url("//www.astate.edu/includes/versions/1/img/default/feature_nav_sprite.png") 0 0 no-repeat;
+        -webkit-background-size: 11px 10px;
+        background-size: 11px 20px
+    }
+
+    .flex-control-nav li a:hover {
+        background-position: 0 0
+    }
+
+    .flex-control-nav li a.active {
+        color: #000;
+        width: 11px;
+        height: 10px;
+        background: url("//www.astate.edu/includes/versions/1/img/default/feature_nav_sprite.png") 0 -10px no-repeat;
+        -webkit-background-size: 11px 10px;
+        background-size: 11px 20px
+    }
+
+    #feature .slide.copy .text-container {
+        width: 43.945%
+    }
+
+    #feature .slide.copy .text-container p {
+        font-size: 1.3em
+    }
+
+    #feature .slide.copy .text-container .smtitle {
+        font-size: 1.6em
+    }
+
+    #feature .slide.copy .text-container .bigtitle {
+        font-size: 3.5em
+    }
+
+    #feature .slide.threeimage .col1 .text-container .smtitle {
+        font-size: 1.6em
+    }
+
+    #feature .slide.threeimage .col1 .text-container .bigtitle {
+        font-size: 3.5em
+    }
+
+    #feature .slide.threeimage .col2 .text-container {
+        padding: 15px 10px 5px 15px
+    }
+
+    #feature .slide.threeimage .col2 .text-container .smtitle {
+        font-size: 1.3em
+    }
+
+    #feature .slide.threeimage .col2 .text-container .bigtitle {
+        font-size: 2em
+    }
+
+    #feature .slide.threeimage .col2 .text-container p {
+        font-size: 1em
+    }
+
+    .masthead .slide.copy .text-container {
+        width: 43.945%
+    }
+
+    .masthead .slide.copy .text-container p {
+        font-size: 1em
+    }
+
+    .masthead .slide.copy .text-container .smtitle {
+        font-size: 1.2em
+    }
+
+    .masthead .slide.copy .text-container .bigtitle {
+        font-size: 2.7em
+    }
+
+    .masthead .slide.threeimage .col1 .text-container .smtitle {
+        font-size: 1.2em
+    }
+
+    .masthead .slide.threeimage .col1 .text-container .bigtitle {
+        font-size: 2.7em
+    }
+
+    .masthead .slide.threeimage .col2 .text-container {
+        padding: 15px 10px 5px 15px
+    }
+
+    .masthead .slide.threeimage .col2 .text-container .smtitle {
+        font-size: 1em
+    }
+
+    .masthead .slide.threeimage .col2 .text-container .bigtitle {
+        font-size: 1.7em
+    }
+
+    .masthead .slide.threeimage .col2 .text-container p {
+        font-size: .8em
+    }
+
+    #bigboxes ul li .box.text,
+    #bigboxes ul li .box.image,
+    #bigboxes ul li .box {
+        width: 199px;
+        height: 199px
+    }
+
+    #events .event:last-of-type {
+        display: none
+    }
+
+    #news .article.last {
+        display: none
+    }
+
+    #events .event-title {
+        width: 25%
+    }
+
+    #events .event {
+        width: 25%
+    }
+
+    #news .article {
+        width: 50%
+    }
+
+    #side-nav-container {
+        width: 33.3333%
+    }
+
+    #news .news-container {
+        width: 66.6666%
+    }
+
+    #news .news-container>a,
+    #news .news-container>a:visited {
+        top: 49px !important;
+        left: 342px !important
+    }
+
+    #news .text-container .smtitle {
+        font-size: 2em
+    }
+
+    #news .text-container .bigtitle {
+        font-size: 4em
+    }
+
+    #bigboxes ul li .box.text .smtitle {
+        font-size: 1.1em
+    }
+
+    #bigboxes ul li .box.text .bigtitle {
+        font-size: 2.5em
+    }
+
+    #bigboxes ul li .box.text p {
+        font-size: .9em
+    }
+}
+
+@media only screen and (max-width:925px) {
+    #header #resource-nav {
+        padding-right: 6px !important
+    }
+
+    #header-search {
+        padding: 0 !important;
+        border: none !important;
+        z-index: 6000
+    }
+
+    #header-search .mob-icon-container {
+        width: 43px;
+        height: 31px;
+        display: block;
+        text-indent: -9999px;
+        background: url("//www.astate.edu/includes/versions/1/img/icon_magnify.png") center center no-repeat;
+        cursor: pointer
+    }
+
+    #header-search .search-container {
+        position: absolute;
+        left: -184px;
+        top: -999px;
+        z-index: 4000
+    }
+
+    #header-search.open {
+        width: 227px;
+        height: 65px;
+        background: none
+    }
+
+    #header-search.open.focus {
+        border: none !important
+    }
+
+    #header-search.open .mob-icon-container {
+        background: url("//www.astate.edu/includes/versions/1/img/default/search_dd_bg.png") top left no-repeat;
+        float: right
+    }
+
+    #header-search.open .search-container {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 29px;
+        background: url("//www.astate.edu/includes/versions/1/img/default/search_bg.png") top left no-repeat;
+        width: 227px;
+        height: 22px;
+        padding: 7px;
+        z-index: 4
+    }
+
+    #header-search.open #header-search-box {
+        width: 181px !important
+    }
+
+    #header-search.open .search-container form p {
+        background: #ccc;
+        width: 210px
+    }
+
+    #header-search.open.focus .search-container form p {
+        background: #fff
+    }
+
+    #footer #admin_links {
+        text-align: right;
+        width: 300px;
+        top: 8px !important
+    }
+
+    #footer #admin_links nav ul {
+        list-style: none;
+        float: none
+    }
+
+    #footer #admin_links nav ul li {
+        margin-top: 8px
+    }
+}
+
+@media only screen and (max-width:886px) {
+
+    #bigboxes ul li .box.text,
+    #bigboxes ul li .box.image,
+    #bigboxes ul li .box {
+        width: 165px;
+        height: 165px
+    }
+
+    #bigboxes ul li .box.text .text-container {
+        padding: 4px 11px
+    }
+
+    #bigboxes ul li .box.text .smtitle {
+        font-size: 1em
+    }
+
+    #bigboxes ul li .box.text .bigtitle {
+        font-size: 2.8em
+    }
+
+    #bigboxes ul li .box.text p {
+        font-size: .8em
+    }
+
+    #content {
+        margin: 0 0 0 33.3333%;
+        width: 66.6666%
+    }
+
+    #content .column1 {
+        width: 100%
+    }
+
+    #content .column2 {
+        width: 100%
+    }
+
+    #page-nav {
+        width: 33.3333%
+    }
+
+    .bc-container .breadcrumbs ul {
+        width: 100%;
+        padding: 0
+    }
+
+    .bc-container .breadcrumbs ul li {
+        background: url("//www.astate.edu/includes/versions/1/img/default/dropdown_link_bg.png") top left repeat-x;
+        padding: 10px
+    }
+
+    .bc-container .breadcrumbs ul li:first-child {
+        background: none
+    }
+
+    .masthead .image-container .image-caption {
+        position: static !important
+    }
+
+    .masthead .slide.copy .text-container {
+        position: static;
+        background: #000;
+        width: 100%;
+        padding: 0 0 15px 0
+    }
+
+    .masthead .slide.copy .text-container>div {
+        padding: 0 5px
+    }
+
+    .masthead .slide.copy .text-container .smtitle {
+        display: none
+    }
+
+    .masthead .slide.copy .text-container .bigtitle {
+        font-size: 1.5em
+    }
+
+    .masthead .slide.copy .text-container p {
+        font-size: 1em;
+        display: inline
+    }
+
+    .masthead .slide.copy .text-container .link-container .mobarrow {
+        display: inline !important;
+        color: #fff;
+        vertical-align: top
+    }
+
+    .masthead .slide.copy .text-container .link-container .moreinfo {
+        background: none;
+        display: inline;
+        padding: 0;
+        margin: 0
+    }
+
+    .masthead .slide.threeimage .marketing-copy,
+    .masthead .slide.threeimage .col2 .no-mobile {
+        display: none
+    }
+
+    .masthead .slide.threeimage .col1,
+    .masthead .slide.threeimage .col2 {
+        width: 100%;
+        position: relative;
+        max-width: 100%
+    }
+
+    .masthead .slide.threeimage .col1 {
+        overflow: hidden
+    }
+
+    .masthead .slide.threeimage .col1 img {
+        position: absolute;
+        left: 0
+    }
+
+    .masthead .slide.threeimage .top img {
+        top: 0
+    }
+
+    .masthead .slide.threeimage .middle img {
+        top: -50%
+    }
+
+    .masthead .slide.threeimage .bottom img {
+        bottom: 0
+    }
+
+    .masthead .slide.threeimage .col2 .text-container {
+        padding: 0 5px 5px 8px
+    }
+
+    .masthead .slide.threeimage .col2 .text-container .smtitle {
+        display: none
+    }
+
+    .masthead .slide.threeimage .col2 .text-container .bigtitle {
+        font-size: 1.5em;
+        padding: 0
+    }
+
+    .masthead .slide.threeimage .col2 .text-container p {
+        font-size: 1em;
+        display: inline
+    }
+
+    .masthead .slide.threeimage .col2 .text-container .link-container .mobarrow {
+        display: inline !important;
+        color: #fff;
+        vertical-align: top
+    }
+
+    .masthead .slide.threeimage .col2 .text-container .link-container .moreinfo {
+        background: none;
+        display: inline;
+        padding: 0;
+        margin: 0
+    }
+
+    .masthead .slide.threeimage .col1 {
+        height: 275px
+    }
+
+    .masthead .slide.threeimage .col1 .large-image-three-slide {
+        width: 100%
+    }
+
+    #research-news .news-container {
+        width: 66%
+    }
+
+    #research-news .news-container .article-container .article {
+        width: 50%
+    }
+
+    #research-news .news-container .article-container .last {
+        display: none
+    }
+
+    #research-news #callout-container {
+        width: 33%
+    }
+
+    #main.research #content {
+        width: 95%;
+        margin: 0 auto;
+        padding: 0 !important
+    }
+
+    #main.research>.content-container {
+        margin: auto;
+        padding: 0 15px;
+        max-width: 980px
+    }
+
+    #main.research .bc-container .breadcrumbs ul li {
+        background: none;
+        padding: 0 5px
+    }
+
+    #main.research .bc-container .breadcrumbs ul li:first-child {
+        background: none
+    }
+
+    #projects-column .image-container {
+        position: relative
+    }
+
+    #projects-column .image-container img {
+        padding: 14px 10px 8px 14px;
+        max-width: 100px
+    }
+
+    #main.research #content.research-detail #projects-column {
+        width: 70%
+    }
+
+    #main.research #content.research-detail #callout-column {
+        width: 30%
+    }
+
+    .box-image .image-container img {
+        vertical-align: bottom
+    }
+
+    .box-image .caption-container {
+        position: static
+    }
+
+    .box-image .caption-container .hidden_content {
+        display: block
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .no-tablet {
+        display: none !important
+    }
+
+    #feature .flexslider {
+        height: 315px
+    }
+
+    #content .single-column {
+        width: 100%
+    }
+
+    #research-nav .nav-container li.choose {
+        width: 9%
+    }
+
+    #research-nav .nav-container li.featured,
+    #research-nav .nav-container li.centers,
+    #research-nav .nav-container li.news,
+    #research-nav .nav-container li.heritage {
+        margin: 0 auto;
+        width: 22%;
+        text-align: center
+    }
+
+    #research-nav .nav-container li.featured a {
+        padding: 20px 1px 20px 30px
+    }
+
+    #research-nav .nav-container li.centers a {
+        padding: 13px 1px 13px 30px
+    }
+
+    #research-nav .nav-container li.news a {
+        padding: 20px 1px 20px 35px
+    }
+
+    #research-nav .nav-container li.heritage a {
+        padding: 20px 1px 20px 30px
+    }
+}
+
+@media only screen and (max-width:754px) {
+    #header .content-container {
+        padding: 0 !important
+    }
+
+    #header #site-title h1 {
+        color: #fff
+    }
+
+    #site-logo .logo-container {
+        padding-left: 14px
+    }
+
+    #site-logo {
+        display: inline-block;
+        position: static !important;
+        padding: 0;
+        margin: 0;
+        height: auto;
+        width: 121px;
+        min-width: auto
+    }
+
+    #site-title {
+        top: 8px !important;
+        left: 25% !important;
+        font-size: 1.4em !important;
+        height: auto;
+        min-width: 0 !important;
+        padding: 18px 0 0;
+        margin: 0;
+        text-align: center;
+        color: #fff
+    }
+
+    .logo-bg {
+        background: url("//www.astate.edu/includes/versions/1/img/default/bg_primary-nav.png") top left repeat;
+        border-bottom: 1px solid #830105;
+        padding: 5px 0
+    }
+
+    #sub-nav-container {
+        width: 100%;
+        position: relative;
+        border-top: 4px solid #fff;
+        overflow: hidden
+    }
+
+    #sub-nav-container .section-title {
+        display: inline-block;
+        letter-spacing: normal;
+        word-spacing: normal;
+        font-size: 1em;
+        color: #252525;
+        cursor: pointer;
+        font-weight: 800;
+        text-transform: uppercase
+    }
+
+    #sub-nav-container .section-title span {
+        display: block;
+        padding: 11px;
+        border-right: 2px solid #fff
+    }
+
+    #sub-nav-container .audience {
+        width: 40%;
+        background: url("//www.astate.edu/includes/versions/1/img/audience_nav_arrow.png") 95% 50% no-repeat #ccc
+    }
+
+    #sub-nav-container .audience.open {
+        width: 40%;
+        background: url("//www.astate.edu/includes/versions/1/img/audience_nav_arrow_open.png") 95% 50% no-repeat #3e3e3e;
+        color: #fff !important
+    }
+
+    #sub-nav-container .campus {
+        width: 40%;
+        background: url("//www.astate.edu/includes/versions/1/img/audience_nav_arrow.png") 95% 50% no-repeat #ccc
+    }
+
+    #sub-nav-container .campus.open {
+        width: 40%;
+        background: url("//www.astate.edu/includes/versions/1/img/audience_nav_arrow_open.png") 95% 50% no-repeat #3e3e3e;
+        color: #fff !important
+    }
+
+    #sub-nav-container .search {
+        width: 20%;
+        text-indent: -999px
+    }
+
+    #sub-nav-container .search span {
+        border: none !important;
+        background: #ccc
+    }
+
+    #sub-nav-container .search span a {
+        background: url("//www.astate.edu/includes/versions/1/img/icon_magnify.png") center center no-repeat;
+        display: block
+    }
+
+    #sub-nav-container .open span {
+        border-right: none;
+        background: #3f3f3f
+    }
+
+    #sub-nav-container .open span a {
+        background: url("//www.astate.edu/includes/versions/1/img/default/mobile_search_arrow.png") center center no-repeat;
+        display: block
+    }
+
+    .ie7 #sub-nav-container .section-title {
+        display: block !important;
+        width: 100% !important
+    }
+
+    #header-search {
+        position: static;
+        width: 100%
+    }
+
+    #header-search .mob-icon-container {
+        display: none !important
+    }
+
+    #header-search .search-container {
+        display: none !important;
+        height: auto
+    }
+
+    #header-search.open {
+        background: #3f3f3f;
+        height: auto;
+        width: 100%
+    }
+
+    #header-search.open .search-container {
+        display: block !important;
+        position: static !important;
+        background: #3f3f3f;
+        padding: 7px 0;
+        width: 100%;
+        height: auto
+    }
+
+    #header-search.open .search-container form p {
+        margin: 0 7px;
+        padding: 0;
+        width: auto !important
+    }
+
+    #header-search.open #header-search-box {
+        width: 90% !important;
+        height: 30px
+    }
+
+    #header-search.open #header-search-submit {
+        width: 8% !important;
+        height: 30px
+    }
+
+    #audience-nav {
+        display: none;
+        float: left;
+        background: none;
+        height: auto
+    }
+
+    #audience-nav .title {
+        display: none !important;
+        background: none !important
+    }
+
+    #audience-nav .nav-container {
+        padding: 2px
+    }
+
+    #audience-nav.open {
+        display: block;
+        width: 100%
+    }
+
+    #audience-nav.open .title {
+        background: url("//www.astate.edu/includes/versions/1/img/audience_nav_arrow_open.png") right center no-repeat #ccc
+    }
+
+    #audience-nav.open .nav-container ul {
+        display: block;
+        position: static !important;
+        width: 100%
+    }
+
+    #audience-nav.open .nav-container ul li {
+        font-weight: normal;
+        margin: 0;
+        float: none;
+        padding: 10px 0;
+        border-style: solid;
+        border-width: 0 0 1px 0;
+        border-color: #000;
+        background: #fff;
+        text-align: left;
+        width: 100%
+    }
+
+    #audience-nav.open .nav-container ul li:first-child {
+        border-top: none
+    }
+
+    #audience-nav.open .nav-container ul li a {
+        color: #000;
+        padding: 5px 10px;
+        width: auto
+    }
+
+    #audience-nav.open .nav-container ul li a:hover {
+        text-decoration: underline;
+        color: #000
+    }
+
+    #audience-nav.open .nav-container ul li a:visited {
+        color: #000
+    }
+
+    #resource-nav {
+        display: none
+    }
+
+    #campus-nav {
+        display: none
+    }
+
+    #campus-nav .title {
+        display: none
+    }
+
+    #campus-nav .nav-container {
+        padding: 2px
+    }
+
+    #campus-nav .nav-container ul {
+        display: none
+    }
+
+    #campus-nav.open {
+        display: block;
+        position: static !important;
+        float: left;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        color: #fff;
+        text-transform: uppercase;
+        z-index: 300;
+        width: 100%
+    }
+
+    #campus-nav.open .nav-container ul {
+        display: block;
+        position: static !important
+    }
+
+    #campus-nav.open .nav-container ul li {
+        margin: 0;
+        display: block;
+        float: none;
+        padding: 10px 0;
+        border-style: solid;
+        border-width: 0 0 1px 0;
+        border-color: #000;
+        background: #fff;
+        text-align: left;
+        width: 100%
+    }
+
+    #campus-nav.open .nav-container ul li:first-child {
+        border-top: none
+    }
+
+    #campus-nav.open .nav-container ul li a {
+        color: #000;
+        padding: 5px 10px
+    }
+
+    #campus-nav.open .nav-container ul li a:hover {
+        text-decoration: underline;
+        color: #000
+    }
+
+    #campus-nav.open .nav-container ul li a:visited {
+        color: #000
+    }
+
+    #primary-nav {
+        background: url("//www.astate.edu/includes/versions/1/img/default/bg_primary-nav.png") repeat-x top left;
+        height: 95px;
+        max-width: 950px;
+        margin: auto;
+        text-align: left
+    }
+
+    #primary-nav .nav-container {
+        height: 96px;
+        width: 100%
+    }
+
+    #primary-nav .nav-container>ul {
+        margin: 0;
+        border-style: solid;
+        border-color: #830105;
+        border-width: 0 0 1px 1px;
+        height: 95px
+    }
+
+    #primary-nav .nav-container>ul>li {
+        width: 33.3334%;
+        border: none;
+        height: auto !important;
+        padding: 0
+    }
+
+    .ie7 #primary-nav .nav-container>ul>li {
+        width: 33% !important
+    }
+
+    #primary-nav .nav-container>ul>li.home {
+        display: block
+    }
+
+    #primary-nav .nav-container>ul>li:hover {
+        background: none !important
+    }
+
+    #primary-nav .nav-container>ul>li>a,
+    #primary-nav .nav-container>ul>li>a:visited {
+        display: block;
+        background: none;
+        padding: 15px 0;
+        margin: 0;
+        color: #fff;
+        border-style: solid;
+        border-color: #830105;
+        border-width: 1px 1px 0 0
+    }
+
+    #primary-nav .nav-container>ul>li>a:hover {
+        background: none
+    }
+
+    #primary-nav .nav-container>ul>li:first-child {
+        border-left: none
+    }
+
+    .dropdown {
+        display: none !important;
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: -9999px
+    }
+
+    #news .article {
+        width: 100%
+    }
+
+    #news article {
+        border-bottom: 1px solid #ccc;
+        margin: 0;
+        padding: 6px 0
+    }
+
+    #side-nav-container {
+        width: 45%
+    }
+
+    #news .news-container {
+        width: 55%
+    }
+
+    #news {
+        margin: 0 auto 18px
+    }
+
+    #news .news-container>a,
+    #news .news-container>a:hover,
+    #news .news-container>a:visited {
+        position: static;
+        display: block;
+        margin-top: 5px
+    }
+
+    #news .text-container {
+        border-bottom: 1px solid #ccc;
+        padding: 0 0 5px 0;
+        margin: 0
+    }
+
+    #news .text-container .smtitle {
+        font-size: 1.6em
+    }
+
+    #news .text-container .bigtitle {
+        font-size: 3em
+    }
+
+    #events {
+        height: auto !important;
+        margin: 0 auto 18px
+    }
+
+    #events .event-title {
+        width: 100%;
+        background: none;
+        border: none
+    }
+
+    #events .event {
+        width: 100%
+    }
+
+    #events .details {
+        padding: 0 !important
+    }
+
+    #events .day {
+        padding: 0 !important
+    }
+
+    #events .month {
+        padding: 0 !important
+    }
+
+    #events .text-container,
+    #events .event-container,
+    #events .event-container:first-child {
+        background: none;
+        border-style: solid;
+        border-width: 0 0 1px 0;
+        border-color: #ccc;
+        height: auto;
+        width: 100%;
+        padding: 5px 0
+    }
+
+    #events .text-container .smtitle {
+        color: #555;
+        font-size: 1.6em
+    }
+
+    #events .text-container .bigtitle {
+        color: #cc092f;
+        font-size: 3em
+    }
+
+    #events .date {
+        border: none !important;
+        padding-bottom: 2px
+    }
+
+    #events>a,
+    #events>a:hover,
+    #events>a:visited {
+        position: static;
+        display: block;
+        background: url("//www.astate.edu/includes/versions/1/img/default/bg_morelink_black.png") top left no-repeat;
+        color: #fff;
+        margin-top: 5px;
+        padding: 4px 7px 4px 5px
+    }
+
+    #events>a.more.academic {
+        background: url("//www.astate.edu/includes/versions/1/img/default/bg_morelink_black_double.png") top left no-repeat
+    }
+
+    #events .date,
+    #events .date .day,
+    #events .date .month {
+        display: inline;
+        font-size: 1em !important;
+        color: #555 !important
+    }
+
+    #events .details {
+        display: block;
+        width: 100% !important
+    }
+
+    #bigboxes ul li {
+        width: 50%;
+        margin-top: 10px
+    }
+
+    #bigboxes ul li .box.text,
+    #bigboxes ul li .box.image,
+    #bigboxes ul li .box {
+        width: 199px !important;
+        height: 199px !important
+    }
+
+    #bigboxes ul li .box.text .smtitle {
+        font-size: 1.1em !important
+    }
+
+    #bigboxes ul li .box.text .bigtitle {
+        font-size: 2.5em !important
+    }
+
+    #bigboxes ul li .box.text p {
+        font-size: 1em !important
+    }
+
+    #projects-column {
+        width: 100%
+    }
+
+    #callout-column {
+        width: 100%
+    }
+
+    #main.research #content.research-detail #projects-column {
+        width: 100%
+    }
+
+    #main.research #content.research-detail #callout-column {
+        width: 100%;
+        margin-top: 0 !important
+    }
+
+    #research-nav .nav-container li.choose {
+        display: none
+    }
+
+    #research-nav .nav-container li.featured,
+    #research-nav .nav-container li.centers,
+    #research-nav .nav-container li.news,
+    #research-nav .nav-container li.heritage {
+        width: 25%
+    }
+
+    #research-nav .nav-container li.featured a {
+        background: none;
+        padding: 20px 1px;
+        margin: 0
+    }
+
+    #research-nav .nav-container li.centers a {
+        background: none;
+        padding: 20px 1px;
+        margin: 0
+    }
+
+    #research-nav .nav-container li.news a {
+        background: none;
+        padding: 20px 1px;
+        margin: 0
+    }
+
+    #research-nav .nav-container li.heritage a {
+        background: none;
+        padding: 20px 1px;
+        margin: 0
+    }
+
+    .box-expand .callout-container>*,
+    .box-expand .callout-container>a {
+        display: none
+    }
+
+    .no-js .box-expand .callout-container>*,
+    .no-js .box-expand .callout-container>a {
+        display: block
+    }
+
+    .box-expand .text-container {
+        display: block;
+        cursor: pointer;
+        border: none;
+        background: url("//www.astate.edu/includes/versions/1/img/default/callout_expand.png") 100% -41px no-repeat;
+        margin-right: 4px;
+        padding: 13px
+    }
+
+    .box-expand .open>*,
+    .box-expand .open>a {
+        display: block
+    }
+
+    .box-expand .open .text-container {
+        background: url("//www.astate.edu/includes/versions/1/img/default/callout_expand.png") 100% 5px no-repeat
+    }
+
+    .no-js .box-expand .content-container,
+    .box-expand .open .content-container {
+        padding-top: 15px;
+        background: #fff
+    }
+
+    .box-link .callout-container {
+        position: relative
+    }
+
+    .box-link .callout-container .text-container {
+        border: none;
+        margin-right: 4px;
+        padding: 13px
+    }
+
+    .box-link .callout-container>a {
+        background: url("//www.astate.edu/includes/versions/1/img/default/callout_arrowlink.png") 100% 0 no-repeat;
+        text-indent: -9999px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        zoom: 1;
+        top: 5px;
+        left: -4px;
+        padding: 0;
+        margin: 0 4px 0 0
+    }
+
+    .box-quote {
+        display: none
+    }
+
+    .box-image .callout-container,
+    .box-video .callout-container {
+        max-width: 389px;
+        text-align: left;
+        margin: 0 auto
+    }
+}
+
+@media only screen and (max-width:700px) {
+    #main {
+        padding: 0 0 27px 0
+    }
+
+    #main>.content-container {
+        padding: 0 14px
+    }
+
+    #alert .attention-container,
+    #alert .alert-container {
+        padding: 0 14px
+    }
+
+    .no-masthead {
+        display: none
+    }
+
+    #footer .content-container {
+        padding: 0 5px
+    }
+
+    #footer #admin_links {
+        position: static;
+        text-align: center;
+        width: 100%
+    }
+
+    #footer #admin_links nav {
+        text-align: center
+    }
+
+    #footer #admin_links nav ul {
+        float: none;
+        display: inline-block;
+        margin: auto
+    }
+
+    #footer #admin_links nav ul li {
+        margin-top: 15px;
+        float: none;
+        display: inline-block
+    }
+
+    #footer #admin_links nav ul.mob-split li:first-child {
+        border-left: 1px solid #8c8c8c
+    }
+
+    #footer #social {
+        bottom: 21px;
+        left: 5px;
+        position: absolute;
+        width: auto
+    }
+
+    #footer #addr_links {
+        position: static;
+        width: 100%;
+        text-align: center;
+        display: block
+    }
+
+    #footer #addr_links ul {
+        display: inline-block;
+        margin: auto
+    }
+
+    #footer #address {
+        margin: 15px auto 62px;
+        width: 100%;
+        text-align: center
+    }
+
+    #feature .flexslider {
+        height: 385px
+    }
+
+    #feature .slide.copy .text-container {
+        position: static;
+        background: #000;
+        width: 100%;
+        padding: 0 0 15px 0
+    }
+
+    #feature .slide.copy .text-container>div {
+        padding: 0 5px
+    }
+
+    #feature .slide.copy .text-container .smtitle {
+        display: none
+    }
+
+    #feature .slide.copy .text-container .bigtitle {
+        font-size: 1.5em
+    }
+
+    #feature .slide.copy .text-container .whitebg {
+        font-size: 1em;
+        color: #fff !important
+    }
+
+    .slide.copy.whitebg .text-container .smtitle {
+        color: #fff
+    }
+
+    .slide.copy.whitebg .text-container .bigtitle {
+        color: #fff
+    }
+
+    .slide.copy.whitebg .text-container p {
+        color: #fff;
+        text-shadow: none
+    }
+
+    #feature .slide.copy .text-container p {
+        font-size: 1em;
+        display: inline;
+        color: #fff !important
+    }
+
+    #feature .slide.copy .text-container .link-container .mobarrow {
+        display: inline !important;
+        color: #fff;
+        vertical-align: top
+    }
+
+    #feature .slide.copy .text-container .link-container .moreinfo {
+        background: none;
+        display: inline;
+        padding: 0;
+        margin: 0
+    }
+
+    #feature .slide.threeimage .marketing-copy,
+    #feature .slide.threeimage .col2 .no-mobile {
+        display: none
+    }
+
+    #feature .slide.threeimage .col1,
+    #feature .slide.threeimage .col2 {
+        width: 100%;
+        position: relative;
+        max-width: 100%
+    }
+
+    #feature .slide.threeimage .col1 {
+        overflow: hidden
+    }
+
+    #feature .slide.threeimage .col1 img {
+        position: absolute;
+        left: 0
+    }
+
+    #feature .slide.threeimage .col1.top img {
+        top: 0
+    }
+
+    #feature .slide.threeimage .col1.middle img {
+        top: -50%
+    }
+
+    #feature .slide.threeimage .col1.bottom img {
+        bottom: 0
+    }
+
+    #feature .slide.threeimage .col2 .text-container {
+        padding: 0 5px 5px 8px
+    }
+
+    #feature .slide.threeimage .col2 .text-container .smtitle {
+        display: none
+    }
+
+    #feature .slide.threeimage .col2 .text-container .bigtitle {
+        font-size: 1.5em;
+        padding: 0
+    }
+
+    #feature .slide.threeimage .col2 .text-container p {
+        font-size: 1em;
+        display: inline
+    }
+
+    #feature .slide.threeimage .col2 .text-container .link-container .mobarrow {
+        display: inline !important;
+        color: #fff;
+        vertical-align: top
+    }
+
+    #feature .slide.threeimage .col2 .text-container .link-container .moreinfo {
+        background: none;
+        display: inline;
+        padding: 0;
+        margin: 0
+    }
+
+    #feature .slide.threeimage .col1 {
+        height: 250px
+    }
+
+    #content,
+    #page-nav {
+        margin: 5px 0;
+        width: 100%
+    }
+
+    #content .column2 .callout-box,
+    #page-nav .callout-box,
+    .call-to-action,
+    .ask-astate,
+    .bc-container {
+        margin: 0 0 10px 0 !important
+    }
+
+    .bc-container {
+        background: none;
+        border: none;
+        margin: 0
+    }
+
+    .bc-container .current {
+        background: none;
+        margin: 0;
+        padding: 5px 0;
+        color: #000
+    }
+
+    .bc-container .breadcrumbs {
+        text-align: center
+    }
+
+    .bc-container .breadcrumbs ul {
+        border-top: none;
+        display: block;
+        display: inline-block;
+        padding: 0 !important;
+        margin: 0 auto !important;
+        border-style: solid;
+        border-width: 1px 0 1px 0;
+        border-color: #069
+    }
+
+    .bc-container .breadcrumbs ul li {
+        background: none !important;
+        float: left;
+        color: #015c89;
+        font-family: Arial, Helvetica, sans-serif;
+        display: none;
+        font-size: 1.2em;
+        text-align: left;
+        height: auto;
+        padding: 0 !important;
+        font-weight: bold
+    }
+
+    .bc-container .breadcrumbs ul li.last,
+    .bc-container .breadcrumbs ul li.ellipses {
+        display: inline-block;
+        border-left: 1px solid #069;
+        text-align: center
+    }
+
+    .bc-container .breadcrumbs ul li:first-child {
+        display: inline-block;
+        border-left: none
+    }
+
+    .bc-container .breadcrumbs ul li .mobarrow {
+        display: none
+    }
+
+    .bc-container .breadcrumbs ul li.last {
+        width: 76.5%
+    }
+
+    .bc-container .breadcrumbs ul li.ellipses {
+        font-weight: bold;
+        width: 11.25%
+    }
+
+    .bc-container .breadcrumbs ul li.homeicon {
+        text-indent: -9999px;
+        background: url("//www.astate.edu/includes/versions/1/img/default/bc_house.png") center center no-repeat !important;
+        width: 11.25%
+    }
+
+    .bc-container .breadcrumbs ul li a {
+        color: inherit;
+        padding: 5px;
+        display: inline-block
+    }
+
+    .bc-container .breadcrumbs.open {
+        text-align: center
+    }
+
+    .bc-container .breadcrumbs.open ul {
+        border-top: none;
+        display: block;
+        display: inline-block;
+        padding: 0;
+        margin: auto;
+        border: none
+    }
+
+    .bc-container .breadcrumbs.open ul li.last {
+        border-bottom: 1px solid #666;
+        border-left: none
+    }
+
+    .bc-container .breadcrumbs.open ul li {
+        background: none !important;
+        float: left;
+        color: #015c89;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        font-size: 1.2em;
+        text-align: left;
+        padding: 0;
+        width: 100%;
+        border-top: 1px solid #666;
+        min-height: 0 !important;
+        height: auto
+    }
+
+    .bc-container .breadcrumbs.open ul li.ellipses {
+        display: none !important
+    }
+
+    .bc-container .breadcrumbs.open ul li.homeicon {
+        text-indent: 0;
+        background: url("//www.astate.edu/includes/versions/1/img/default/bc_house.png") left center no-repeat !important
+    }
+
+    .bc-container .breadcrumbs.open ul li.homeicon a {
+        margin-left: 20px
+    }
+
+    .bc-container .breadcrumbs.open ul li a {
+        color: inherit;
+        padding: 10px;
+        display: inline-block
+    }
+
+    .current-page {
+        display: block
+    }
+
+    #page-nav .page-nav-container {
+        margin: 5px 25px 10px 0;
+        width: 100%
+    }
+
+    #page-nav .page-nav-container ul li {
+        border-bottom: 1px solid #666;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    #page-nav .page-nav-container ul li:first-child {
+        border-top: 1px solid #666
+    }
+
+    #content .bc-container {
+        font-size: inherit;
+        background: none;
+        border: none;
+        margin: 0 0 15px;
+        padding: 0
+    }
+
+    #content .breadcrumbs {
+        font-size: inherit;
+        background: none;
+        border: none;
+        margin: 0;
+        padding: 0;
+        display: block !important
+    }
+
+    #content .current {
+        font-size: inherit;
+        background: none;
+        border: none;
+        margin: 15px 0 0 0;
+        padding: 0
+    }
+
+    #page-nav .bc-container {
+        margin: 15px 0
+    }
+
+    #page-nav .bc-container .current {
+        margin-top: 15px
+    }
+
+    .bc-container .breadcrumbs ul li a {
+        color: #015c89
+    }
+
+    .bc-container .breadcrumbs ul li a:visited {
+        color: #046
+    }
+
+    .bc-container .breadcrumbs ul li a:hover {
+        color: #898989
+    }
+
+    #main.research .bc-container {
+        margin: 0 0 10px 0 !important
+    }
+
+    #main.research .bc-container {
+        background: none;
+        border: none;
+        margin: 0
+    }
+
+    #main.research .bc-container .current {
+        background: none;
+        margin: 0;
+        padding: 5px 0;
+        color: #000
+    }
+
+    #main.research .bc-container .breadcrumbs {
+        text-align: center;
+        margin-top: 0
+    }
+
+    #main.research .bc-container .breadcrumbs ul {
+        border-top: none;
+        display: block;
+        display: inline-block;
+        padding: 0 !important;
+        margin: 0 auto !important;
+        border-style: solid;
+        border-width: 1px 0 1px 0;
+        border-color: #069
+    }
+
+    #main.research .bc-container .breadcrumbs ul li {
+        background: none !important;
+        float: left;
+        color: #015c89;
+        font-family: Arial, Helvetica, sans-serif;
+        display: none;
+        font-size: 1.2em;
+        text-align: left;
+        height: auto;
+        padding: 0 !important;
+        font-weight: bold
+    }
+
+    #main.research .bc-container .breadcrumbs ul li.last,
+    #main.research .bc-container .breadcrumbs ul li.ellipses {
+        display: inline-block;
+        border-left: 1px solid #069;
+        text-align: center
+    }
+
+    #main.research .bc-container .breadcrumbs ul li:first-child {
+        display: inline-block;
+        border-left: none
+    }
+
+    #main.research .bc-container .breadcrumbs ul li .mobarrow {
+        display: none
+    }
+
+    #main.research .bc-container .breadcrumbs ul li.last {
+        width: 76.5%
+    }
+
+    #main.research .bc-container .breadcrumbs ul li.ellipses {
+        font-weight: bold;
+        width: 11.25%
+    }
+
+    #main.research .bc-container .breadcrumbs ul li.homeicon {
+        text-indent: -9999px;
+        background: url("//www.astate.edu/includes/versions/1/img/default/bc_house.png") center center no-repeat !important;
+        width: 11.25%
+    }
+
+    #main.research .bc-container .breadcrumbs ul li a {
+        color: inherit;
+        padding: 5px;
+        display: inline-block
+    }
+
+    #main.research .bc-container .breadcrumbs.open {
+        text-align: center
+    }
+
+    #main.research .bc-container .breadcrumbs.open ul {
+        border-top: none;
+        display: block;
+        display: inline-block;
+        padding: 0;
+        margin: auto;
+        border: none
+    }
+
+    #main.research .bc-container .breadcrumbs.open ul li.last {
+        border-bottom: 1px solid #666;
+        border-left: none
+    }
+
+    #main.research .bc-container .breadcrumbs.open ul li {
+        border-left: none;
+        background: none !important;
+        float: left;
+        color: #015c89;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        font-size: 1.2em;
+        text-align: left;
+        padding: 0;
+        width: 100%;
+        border-top: 1px solid #666;
+        min-height: 0 !important;
+        height: auto
+    }
+
+    #main.research .bc-container .breadcrumbs.open ul li.ellipses {
+        display: none !important
+    }
+
+    #main.research .bc-container .breadcrumbs.open ul li.homeicon {
+        text-indent: 0;
+        background: url("//www.astate.edu/includes/versions/1/img/default/bc_house.png") left center no-repeat !important
+    }
+
+    #main.research .bc-container .breadcrumbs.open ul li.homeicon a {
+        margin-left: 20px
+    }
+
+    #main.research .bc-container .breadcrumbs.open ul li a {
+        color: inherit;
+        padding: 10px;
+        display: inline-block
+    }
+
+    #projects-column>ul>li {
+        width: 100%;
+        border-width: 0 0 1px 0;
+        background: none
+    }
+
+    #projects-column .text-container .tags {
+        display: block;
+        width: 100%;
+        clear: both
+    }
+
+    #projects-column .text-container .tags ul {
+        display: block
+    }
+
+    #projects-column .text-container .tags ul li {
+        display: block;
+        border: none
+    }
+
+    #callout-column {
+        margin-bottom: 0
+    }
+
+    #callout-column .bc-container {
+        display: block;
+        padding-top: 15px
+    }
+
+    #callout-column .bc-container .current {
+        display: none
+    }
+
+    #projects-column .text-container {
+        padding: 0
+    }
+
+    #projects-column .image-container {
+        padding: 0
+    }
+
+    #projects-column .image-container img {
+        padding: 4px 10px 0 0;
+        max-width: 100px
+    }
+
+    #projects-column .image-container .magnify {
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        background: url("//www.astate.edu/includes/versions/1/img/default/magnify.png") top left no-repeat;
+        right: 0;
+        top: 90px
+    }
+}
+
+@media only screen and (max-width:599px) {
+    #site-title {
+        height: auto;
+        min-width: 0 !important;
+        padding: 18px 0 0;
+        margin: 0;
+        text-align: center
+    }
+
+    #alert .col1,
+    #alert .col2 {
+        width: 100%
+    }
+
+    .slide.threeimage .col1 {
+        height: 220px
+    }
+
+    #side-nav {
+        display: none !important
+    }
+
+    #news .news-container {
+        width: 100%
+    }
+
+    #news .article p,
+    #news .article a {
+        display: inline !important
+    }
+
+    #bigboxes ul li {
+        width: 100%
+    }
+
+    #bigboxes ul li .box.text,
+    #bigboxes ul li .box.image,
+    #bigboxes ul li .box {
+        width: 224px !important;
+        height: 225px !important
+    }
+
+    #bigboxes ul li .box.text .smtitle {
+        font-size: 1.1em !important
+    }
+
+    #bigboxes ul li .box.text .bigtitle {
+        font-size: 2.5em !important
+    }
+
+    #bigboxes ul li .box.text p {
+        font-size: .9em !important
+    }
+
+    #feature .flexslider {
+        height: 350px
+    }
+
+    #expandible-content>ul>li .hidden_content div {
+        width: 100%
+    }
+
+    #top-feature>.text-container div {
+        width: 100%
+    }
+
+    #research-slider .slides {
+        text-align: center
+    }
+
+    #research-slider .slides li {
+        width: 270px
+    }
+
+    #research-slider .slides li .text-container {
+        margin: 0 14px 10px;
+        border: 1px solid #000;
+        padding: 5px 8px
+    }
+
+    #research-centers>.text-container div {
+        width: 100%
+    }
+
+    #research-centers .mason-feature .image-container {
+        width: 100%
+    }
+
+    #research-centers .mason-feature .text-container {
+        width: 100%
+    }
+
+    #research-centers #three-feature ul li {
+        width: 270px
+    }
+
+    #research-centers #three-feature ul li .text-container {
+        margin: 0 0 10px;
+        border: 1px solid #000
+    }
+
+    #research-news .news-container {
+        width: 100%
+    }
+
+    #research-news .news-container .article-container .article {
+        width: 100%;
+        padding: 10px 0;
+        border-top: 1px solid #c5c5c5
+    }
+
+    #research-news .news-container .article-container .article:first-child {
+        border: none
+    }
+
+    #research-news .news-container .text-container .title {
+        width: 100%
+    }
+
+    #research-news #callout-container {
+        width: 100%;
+        padding-top: 15px
+    }
+
+    #research-heritage>.text-container div {
+        width: 100%
+    }
+
+    #research-heritage .content .image-container {
+        width: 100%
+    }
+
+    #research-heritage .content .text-container {
+        width: 100%
+    }
+
+    #research-heritage>.content-container .text-container article {
+        padding: 0
+    }
+
+    #research-nav {
+        display: none !important
+    }
+
+    #research-news .news-container .text-container .header {
+        text-align: left;
+        width: 100%
+    }
+
+    #research-heritage>.text-container .header {
+        text-align: left
+    }
+
+    #research-centers>.text-container .header {
+        text-align: left
+    }
+
+    #top-feature>.text-container .header {
+        text-align: left
+    }
+
+    #research-nav .nav-container ul,
+    #research-heritage>.content-container .text-container article,
+    #research-news>div,
+    #research-centers>.tab-container ul,
+    #research-centers #three-feature .text-container,
+    #research-centers #three-feature .content-container,
+    #research-slider .content-container,
+    #research-centers .mason-feature .text-container article,
+    #research-centers .mason-feature,
+    #research-heritage>.content-container .content {
+        padding: 0
+    }
+
+    #research-heritage>.text-container div h2,
+    #top-feature>.text-container div h2,
+    #research-centers>.text-container div h2 {
+        padding: 0 0 15px
+    }
+
+    #research-news .news-container .text-container .title h2 {
+        padding: 0 0 5px
+    }
+
+    #research-slider .slides li .text-container {
+        margin: 0 0 10px
+    }
+
+    #main.research #content {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 !important
+    }
+
+    .touch .pager-container {
+        height: 16px;
+        margin: auto;
+        text-align: center;
+        display: block !important
+    }
+
+    .project-pager {
+        display: inline-block;
+        margin: 0 !important
+    }
+
+    .project-pager li {
+        float: left;
+        height: 11px;
+        width: 10px;
+        padding: 3px;
+        text-indent: -9999px;
+        font-size: 0
+    }
+
+    .project-pager li a {
+        display: block;
+        color: #000;
+        width: 11px;
+        height: 10px;
+        background: url("//www.astate.edu/includes/versions/1/img/default/feature_nav_sprite.png") 0 0 no-repeat;
+        -webkit-background-size: 11px 10px;
+        background-size: 11px 20px
+    }
+
+    .project-pager li a:hover {
+        background-position: 0 0
+    }
+
+    .project-pager li.active a {
+        color: #000;
+        width: 11px;
+        height: 10px;
+        background: url("//www.astate.edu/includes/versions/1/img/default/feature_nav_sprite.png") 0 -10px no-repeat;
+        -webkit-background-size: 11px 10px;
+        background-size: 11px 20px
+    }
+
+    .no-touch .pager-container {
+        display: none !important
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .no-tablet {
+        display: none !important
+    }
+
+    .no-mobile {
+        display: none !important
+    }
+
+    #alert .attention-container .attention {
+        font-size: 1em;
+        width: 100%
+    }
+
+    #site-title {
+        font-size: 1em !important
+    }
+
+    #site-logo {
+        width: 100px !important
+    }
+
+    #focus-bar .showmore {
+        display: none !important
+    }
+
+    #header-nav .nav-container {
+        max-width: 250px
+    }
+
+    #feature .flexslider {
+        height: 310px
+    }
+
+    #feature .slide.threeimage .col1 {
+        height: 165px
+    }
+
+    .masthead .slide.threeimage .col1 {
+        height: 165px
+    }
+
+    .student-union-meeting-spaces .rates-header {
+        margin: 25px 0 10px 0;
+    }
+
+    .student-union-meeting-spaces .rates-container .dept-rate-container {
+        border-right: 0;
+        border-bottom: 1px solid #aaa;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .student-union-meeting-spaces .rates-container .dept-rate-container .yui3-u-1-2 {
+        margin-top: 10px;
+    }
+
+    .student-union-meeting-spaces .rates-container .dept-rate-container .yui3-u-1-2:first-of-type {
+        margin-top: 5px;
+    }
+
+    .student-union-meeting-spaces .rates-container .tright {
+        text-align: left;
+      }
+}
+
+@media only screen and (max-width:450px) {
+    .slide.threeimage .col1 {
+        height: 123px
+    }
+}
+
+.ir {
+    display: block;
+    border: 0;
+    text-indent: -999em;
+    overflow: hidden;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-align: left;
+    direction: ltr
+}
+
+.ir br {
+    display: none
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto
+}
+
+.invisible {
+    visibility: hidden
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.embedded-vid {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px
+}
+
+.embedded-vid iframe,
+.embedded-vid object,
+.embedded-vid embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+
+.degree-table-sort-controls {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    display: flex;
+    column-gap: 4px;
+    row-gap: 4px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.degree-table {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.degree-table th {
+    font-weight: normal;
+    text-align: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.05em;
+    font-style: italic;
+    background: #ebebeb;
+    border-right: 1px solid #ebebeb
+}
+
+.degree-table .degree-col a:after {
+    content: ", "
+}
+
+.degree-table .degree-col a:last-of-type:after {
+    content: ""
+}
+
+.degree-table td {
+    border-bottom: 1px solid #ebebeb
+}
+
+.degree-table .degree-name {
+    font-weight: bold
+}
+
+.degree-table .degree-col {
+    background: #f9f9f9;
+    border-right: 1px solid #ebebeb;
+    width: 15%;
+    text-align: center
+}
+
+.degree-table .class-header {
+    text-align: center
+}
+
+#content article .degree-table-sort-controls .sort-button {
+    padding: 7px;
+    background-color: #015c89;
+    border: 2px solid #ebebeb;
+    color: #fff
+}
+
+#content article .degree-table-sort-controls .sort-button.active {
+    background-color: #000;
+}
+
+.deadline-table {
+    margin-top: 15px
+}
+
+.deadline-table th {
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-collapse: collapse;
+    font-weight: bold
+}
+
+.deadline-heading {
+    vertical-align: top;
+    text-align: center
+}
+
+.deadline-table td {
+    text-align: center;
+    border: 1px solid #ebebeb
+}
+
+.deadline-table .cell-spacer {
+    background-color: #000;
+    border: 0;
+    background: url("//www.astate.edu/includes/versions/1/img/bg_footer.png") top left
+}
+
+.pay-date-col {
+    background-color: #bae0bf
+}
+
+.time-sheet-col {
+    background-color: #fffcb0
+}
+
+.leave-reports-col {
+    background-color: #d6e9f8
+}
+
+.deadline-table .pay-date-header {
+    background-color: #97be9c;
+    text-align: center
+}
+
+.deadline-table .time-sheet-header {
+    background-color: #ebe790;
+    text-align: center
+}
+
+.deadline-table .leave-reports-header {
+    background-color: #badcf6;
+    text-align: center
+}
+
+@media only screen and (max-width:480px) {
+    #footer #addr_links ul li {
+        padding: 0 7px
+    }
+}
+
+@media only screen and (max-width:699px) {
+    #footer #social {
+        width: 100%
+    }
+
+    #footer #social ul {
+        float: none;
+        width: 155px;
+        margin: 0 auto
+    }
+}
+
+.visit-campus-colleges {
+    background-color: #d9d9d9;
+    padding: 15px;
+    margin-bottom: 20px
+}
+
+#content .visit-campus-colleges ul {
+    margin-left: 5px;
+    margin-bottom: 0
+}
+
+#content .visit-campus-colleges h4 {
+    margin-bottom: 10px
+}
+
+#content .visit-campus-colleges p {
+    margin-bottom: 10px
+}
+
+#content .single-column .visit-campus-colleges h6 {
+    float: right;
+    display: block;
+    padding: 7px;
+    background-color: #ebebeb;
+    border: 1px solid #a0a0a0
+}
+
+#main #content .single-column .degree-curriculum-table {
+    width: 80%;
+    margin: 10px auto
+}
+
+#main #content .single-column .degree-curriculum-table p {
+    margin: 0
+}
+
+#news-search-button {
+    background: url("//www.astate.edu/includes/versions/1/img/icon_magnify.png") no-repeat center;
+    height: 21px;
+    text-indent: -9999px;
+    font-size: 0;
+    width: 21px;
+    border: none;
+    color: #ccc;
+    vertical-align: top;
+    float: right
+}
+
+#news-search-box {
+    background: #ccc;
+    border: 0;
+    width: 95%;
+    height: 21px;
+    color: #000;
+    padding-left: 5px
+}
+
+#news-search-box:focus {
+    outline: 0
+}
+
+#news-search-box::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1
+}
+
+#news-search-box::-moz-placeholder {
+    color: #666;
+    opacity: 1
+}
+
+#news-search-box:-moz-placeholder {
+    color: #666;
+    opacity: 1
+}
+
+#news-search-box:-ms-input-placeholder {
+    color: #666;
+    opacity: 1
+}
+
+#news-search-wrapper {
+    background-color: #ccc;
+    border: 1px solid #fff;
+    margin: 10px 0 15px 0;
+    padding: 5px
+}
+
+.degree-files ul li {
+    line-height: 1.3
+}
+
+.page-nav-container {
+    position: relative
+}
+
+.menuReorder {
+    position: absolute;
+    right: 0;
+    background-color: #cc092f
+}
+
+.menuReorder a {
+    color: #fff;
+    padding: 5px;
+    display: block
+}
+
+.menuReorder a:hover {
+    color: #ebebeb
+}
+
+#content .flex-container.non-home-page .flexslider ul.slides {
+    margin: 0
+}
+
+#content .flex-container.non-home-page .flexslider ul.slides li.slide {
+    background: none;
+    padding: 0
+}
+
+#content .flex-container.non-home-page ul.flex-direction-nav {
+    margin: 0
+}
+
+#content .flex-container.non-home-page ul.flex-direction-nav li {
+    background: none;
+    padding: 0
+}
+
+figure.image {
+    margin: 0;
+}
+
+figcaption {
+    text-align: right;
+    font-size: .9em;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: flex;
+    padding: 10px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: 'Oswald';
+    font-size: 1.5em;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.btn:not(.btn-primary):hover {
+    color: white;
+    padding: 10px 15px;
+}
+
+.btn:not(.btn-primary):focus {
+    padding: 10px 15px;
+}
+
+/*
+.btn > i.fa {
+    transition: all 0.2s;
+}
+
+.btn:hover > i.fa {
+    color: white;
+    padding-right: 5px;
+}
+
+.btn:focus > i.fa {
+    padding-right: 5px;
+}
+*/
+
+.btn-red {
+    background-color: #cc092f;
+    color: white !important;
+}
+
+.btn-red:visited {
+    color: white;
+}
+
+.btn-red:focus {
+    color: #333 !important;
+}
+
+h6 + h2 {
+	margin-top: 7px;
+}
+h6 + h3 {
+	margin-top: 7px;
+}
+h6 + h4 {
+	margin-top: 7px;
+}
+h6 + h5 {
+	margin-top: 7px;
+}
+
+h6 + .h2 {
+	margin-top: 7px;
+}
+h6 + .h3 {
+	margin-top: 7px;
+}
+h6 + .h4 {
+	margin-top: 7px;
+}
+h6 + .h5 {
+	margin-top: 7px;
+}
+
+.h6 + .h2 {
+	margin-top: 7px;
+}
+.h6 + .h3 {
+	margin-top: 7px;
+}
+.h6 + .h4 {
+	margin-top: 7px;
+}
+.h6 + .h5 {
+	margin-top: 7px;
+}
+
+.person .h6 + .h3 {
+    margin-top: 0;
+}
+
+.grid{
+  display: grid
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.\*\:p-4 > *{
+  padding: 1rem;
+}
+
+.first\:\*\:col-span-2 > *:first-child{
+  grid-column: span 2 / span 2;
+}
+
+#content .single-column article ul.fa-ul li {
+    background: none;
+    padding: 0;
+    margin: 10px;
+}
